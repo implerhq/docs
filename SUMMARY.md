@@ -17,6 +17,13 @@
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
 * [🥂 Using REST API](data-retrieval/using-rest-api.md)
 
+## Platform
+
+* [🔰 Validators](platform/validators.md)
+* [🤠 Output Customization](platform/output-customization.md)
+* [📽 Activity Page](platform/activity-page.md)
+* [🤶 Manage Project](platform/manage-project.md)
+
 ## 🤝 Community
 
 * [💎 Run Impler locally](community/run-impler-locally.md)
