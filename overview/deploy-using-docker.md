@@ -36,25 +36,7 @@ AWS_SECRET_ACCESS_KEY=test
 docker-compose up
 ```
 
-After the application containers are started, you can visit [http://localhost:3000/api](http://localhost:3000/api), to play with a swagger.
-
-## Add authentication
-
-While trying to focus on what is actually needed, we have set up a basic `token` based authentication mechanism to secure the infrastructure.
-
-### Update the key
-
-You can update the `ACCESS_KEY` in `.env` file to secure usage of API and widget.
-
-### Applying the authentication
-
-After providing `ACCESS_KEY` all APIs become protected and further requests get validated by checking the token in the headers. Like,
-
-```
-access_key: <KEY_PROVIDED_IN_ENV>
-```
-
-To apply authentication in `Import` button imported from `@imple/react`, an `accessToken` prop is required.
+After the application containers are started, you can visit [http://localhost:4200](http://localhost:4200) to start playing with Impler.
 
 ## Configuration
 
