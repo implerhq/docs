@@ -21,6 +21,7 @@
 
 * [🔰 Validators](platform/validators.md)
 * [🤠 Output Customization](platform/output-customization.md)
+* [🗃 Prefilled Data](platform/prefilled-data.md)
 * [📽 Activity Page](platform/activity-page.md)
 * [🤶 Manage Project](platform/manage-project.md)
 
