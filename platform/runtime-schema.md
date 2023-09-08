@@ -6,6 +6,10 @@ description: >-
 
 # 🛸 Runtime Schema
 
+{% hint style="info" %}
+Available after impler version `0.9.1`&#x20;
+{% endhint %}
+
 This versatile feature provides flexibility and customization to the import process, catering to various use cases and dynamic requirements. Let's understand how to effectively utilize this feature.
 
 ## Getting started

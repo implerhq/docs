@@ -7,6 +7,10 @@ description: >-
 
 # 🗃 Prefilled Data
 
+{% hint style="info" %}
+Available after impler version `0.9.1`&#x20;
+{% endhint %}
+
 To prefilled the file that gets downloaded as `Sample`, one need to pass `data` in `showWidget` function, which is exported from the `useImpler` hook.
 
 This function, when provided with your data, allows Impler to automatically populate sample files with the specified information.

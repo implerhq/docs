@@ -6,6 +6,10 @@ description: >-
 
 # 🦄 Custom Validation
 
+{% hint style="info" %}
+Available after impler version `0.9.1`&#x20;
+{% endhint %}
+
 To implement custom validation logic, you can use the code editor provided in the `Validator` tab of the Import Details page.
 
 Your custom validation function should adhere to this structure:
