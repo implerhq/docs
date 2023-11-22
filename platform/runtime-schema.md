@@ -52,6 +52,7 @@ When providing the schema at runtime, developers can override specific schema pr
 * `isUnique (optional)`: A boolean value indicating whether values in the current column must be unique.
 * `selectValues (optional)`: Select values indicating what are the possible values when the type is select.
 * `regex (optional)`: A regular expression to override when the type is `regex`.
+* `dateFormats (optional)`: Date formats indicating a list of formats acceptable for date field. Required when type is `Date`. For example, `['dd/mm/yyyy','dd/mm/yy']`
 
 Any key provided in the `schema` at runtime will override the corresponding property of the default schema, ensuring the flexibility to adapt the schema as needed.
 
