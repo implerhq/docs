@@ -1,17 +1,17 @@
 ---
 description: >-
-  Add prefilled data to Excel sheets downloaded through the import widget. This
-  feature is especially useful when dealing with relational data or importing
-  data for multiple entities at once.
+  Populate essential data fields in your Excel samples with Data Seeding.
+  Simplify data input by preloading records, allowing users to build upon or
+  modify data.
 ---
 
-# 🗃 Prefilled Data
+# 🗃 Data Seeding
 
 {% hint style="info" %}
 Available after impler version `0.9.1`&#x20;
 {% endhint %}
 
-To prefilled the file that gets downloaded as `Sample`, one need to pass `data` in `showWidget` function, which is exported from the `useImpler` hook.
+To seed the file that gets downloaded as `Sample`, one need to pass `data` in `showWidget` function, which is exported from the `useImpler` hook.
 
 This function, when provided with your data, allows Impler to automatically populate sample files with the specified information.
 
@@ -47,10 +47,10 @@ function onShowWidgetClick = () => {
 
 ## Benefits at a Glance
 
-* **Efficient Data Import**: Simplify the process of importing relational data by prefilling sample files.
+* **Efficient Data Import**: Simplify the process of importing relational data by seeding sample file.
 * **Developer-Friendly**: Integrate data sources seamlessly into Impler's import workflow.
 * **User-Focused**: Enhance the user experience by providing prepopulated sample files for download.
 
-With the Prefilled Data feature in Impler, you can save time and effort by automating the generation of sample files.
+With the Data Seeding feature in Impler, you can save time and effort by automating the generation of sample files.
 
 This is particularly valuable when importing data with complex relationships, ensuring a smooth and efficient data import experience.
