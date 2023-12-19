@@ -17,7 +17,7 @@ Clone the repository, get into the docker directory, and start the containers.
 
 ```
 # Get the code
-git clone --depth 1 https://github.com/knovator/impler.io
+git clone --depth 1 https://github.com/implerhq/impler.io
 
 # Go to the docker folder
 cd impler.io/docker

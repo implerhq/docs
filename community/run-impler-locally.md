@@ -18,7 +18,7 @@ You can also run docker containers for MongoDB, RabbitMQ, and Localstatck.
 
 After installing the required services on your machine, you can clone and setup your forked version of the project:
 
-* Fork [Impler's repository](https://github.com/knovator/impler.io). Clone or download your fork to your local machine.
+* Fork [Impler's repository](https://github.com/implerhq/impler.io). Clone or download your fork to your local machine.
 * Run the initial setup command `npm run setup:project` to install and build all dependencies.
 * Run the project locally using `npm run start:dev`
 
@@ -46,7 +46,7 @@ The command `npm run setup:project` creates default environment variables that a
 * `MONGO_URL` - The URL of your MongoDB instance
 * `S3_LOCALSTACK` - The AWS endpoint for the S3 Bucket required for storing various media
 * `S3_REGION` - The AWS region of the S3 Bucket
-* `S3_BUCKET_NAME` -  The name of the S3 Bucket
+* `S3_BUCKET_NAME` - The name of the S3 Bucket
 * `ACCESS-KEY` - Optional key to secure APIs
 
 </details>
@@ -97,4 +97,3 @@ npm run test:api
 * **4701** - Embed
 * **3500** - Widget
 * **5173** - Widget Demo
-
