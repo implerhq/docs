@@ -26,6 +26,7 @@
 * [🦄 Custom Validation](platform/custom-validation.md)
 * [📽 Activity Page](platform/activity-page.md)
 * [🤶 Manage Project](platform/manage-project.md)
+* [🎨 Default Value](platform/default-value.md)
 
 ## 🤝 Community
 
