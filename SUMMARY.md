@@ -32,3 +32,7 @@
 
 * [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [🔄 Data Migrations](additional-resources/data-migrations.md)
+
+***
+
+* [Changelog](https://changelog.impler.io)
