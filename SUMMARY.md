@@ -9,7 +9,7 @@
 
 ## 🏂 Widget
 
-* [🪄 iFrame Embed](widget/iframe-embed.md)
+* [🪄 HTML & JS Embed](widget/iframe-embed.md)
 * [🌐 React Embed](widget/react-embed.md)
 
 ## 💐 Data Retrieval

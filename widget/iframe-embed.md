@@ -4,9 +4,9 @@ description: >-
   embedded script. This will show the Widget inside an iframe.
 ---
 
-# 🪄 iFrame Embed
+# 🪄 HTML & JS Embed
 
-## Add Script
+### Add Script
 
 You copy this snippet to your code before the closing body tag.
 
@@ -16,44 +16,85 @@ You copy this snippet to your code before the closing body tag.
 ```
 {% endcode %}
 
-It will add `impler` variable in `window`, so you can call its `init` and `show` method.
+It will add `impler` variable in `window`, so we can call its `init` and `show` methods later.
 
-## Initialize Widget
+### Add Import Button
 
-Before the widget gets shown you have to call its `init` method according to the following snippet,
+Import widgets get opened when the user clicks on `Import` button. So let's add an import button,
 
-```javascript
-window.impler.init(projectId, { accessToken });
+```markup
+<button disabled id="impler-btn">
+  Import
+</button>
 ```
 
-### Parameters
+### Initialize Widget
 
-<table><thead><tr><th>Parameter</th><th>Type</th><th data-type="checkbox">Required</th><th>Description</th></tr></thead><tbody><tr><td>projectId</td><td>string</td><td>true</td><td>Id of the project created from API</td></tr><tr><td>accessToken</td><td>string</td><td>false</td><td>Provide security Token if APIs are secured with <code>ACCESS TOKEN</code></td></tr></tbody></table>
+Before the widget gets shown you have to call its `init` method. So write this code to after adding `embed` script.
+
+<pre class="language-javascript" data-line-numbers><code class="lang-javascript">&#x3C;script type="text/javascript">
+  let uuid = generateUuid();
+  let isImplerInitialized = false;
+  const ImplerBtn = document.getElementById("impler-btn");
+
+  function generateUuid() { // (1)
+    return window.crypto.getRandomValues(new Uint32Array(1))[0];
+  }
+
+  window.onload = (e) => {
+    if (window.impler) {
+      window.impler.init(uuid); // (2)
+
+      const readyCheckInterval = setInterval(() => {
+        if (window.impler.isReady()) { // (3)
+          clearInterval(readyCheckInterval);
+          ImplerBtn.removeAttribute("disabled"); // (4)
+        }
+      }, 1000);
+
+<strong>      ...
+</strong>    }
+  }
+&#x3C;/script>
+</code></pre>
+
+Here is the description of what we just did,
+
+1. `generateUuid` the function generates UUID which helps add multiple import widgets on the same page.
+2. `init` method on impler initializes impler widget.
+3. `readyCheckInterval` calls impler `isReady()` method in the interval of 1 second to check whether the impler widget is initiated or not.
+4. Once `Impler` is ready we remove `disabled` attribute from the import button, which the user can click to open the import widget.
 
 ## Show Widget
 
-After the initialization, you can call `show` method to open the widget according to the following snippet,
+After the initialization, when the user clicks on the Import button we will call `show` method to open the widget,
 
 ```javascript
-window.impler.show({ templateId });
+// at #L21
+ImplerBtn.addEventListener("click", (e) => {
+  window.impler.show({
+    uuid,
+    templateId: "", // templateId
+    projectId: "", // projectId
+    accessToken: "", // accessToken
+  });
+});
 ```
 
-### Parameters
-
-<table><thead><tr><th>Parameter</th><th>Type</th><th data-type="checkbox">Required?</th><th>Description</th></tr></thead><tbody><tr><td>templateId</td><td>string</td><td>true</td><td>id of the template we're trying to do import.</td></tr><tr><td>extra</td><td>string</td><td>false</td><td><code>String</code> or <code>Stringified JSON Object</code> to pass while sending imported data</td></tr><tr><td>authHeadervalue</td><td>string</td><td>false</td><td>Authentication value to authenticate webhook while sending imported data</td></tr><tr><td>primaryColor</td><td>string</td><td>false</td><td>HEX or RGB color value to change color of buttons</td></tr><tr><td>colorScheme</td><td>string</td><td>false</td><td><code>dark</code> or <code>light</code> value presenting color scheme of app</td></tr><tr><td>title</td><td>string</td><td>false</td><td>Override default title of Import widget</td></tr></tbody></table>
+You can pass more parameters to `show` method like schema, data, etc. Have a look at [#props](react-embed.md#props "mention") section on React embed.
 
 That's it, your app is now ready to onboard user data into your application.
 
 ## Listen to Events
 
-Impler instance provides `message` event listener to listen various events happening with widget. Here is how to attach event listener,
+Impler instance provides `message` event listener which gets called for various events happening with the widget. Here is how to attach event listener,
 
 ```javascript
-window.impler.on('message', { type: string, value: any });
+window.impler.on('message', (eventData) => {}, uuid);
 ```
 
-`value` will be latest upload information available while calling the listener function.
+`eventData` follows the `{ type, value}` structure.
 
-### Event Types
+<table><thead><tr><th width="241">type</th><th width="146">value</th><th>Description</th></tr></thead><tbody><tr><td><code>UPLOAD_STARTED</code></td><td>ImportData</td><td>User has started import by selecting file and clicking on <code>See Mapping</code></td></tr><tr><td><code>UPLOAD_TERMINATED</code></td><td>ImportData</td><td>The user canceled the import in the middle of the import process.</td></tr><tr><td><code>UPLOAD_COMPLETED</code></td><td>ImportData</td><td>The user has completed the import.</td></tr><tr><td><code>CLOSE_WIDGET</code></td><td></td><td></td></tr></tbody></table>
 
-<table><thead><tr><th width="280">Name</th><th>Description</th></tr></thead><tbody><tr><td><code>WIDGET_READY</code></td><td>Import Widget is ready to import spreadsheet</td></tr><tr><td><code>UPLOAD_STARTED</code></td><td>User has started importing spreadsheet</td></tr><tr><td><code>UPLOAD_TERMINATED</code></td><td>User has terminated importing spreadsheet</td></tr><tr><td><code>UPLOAD_COMPLETED</code></td><td>User has completed importing spreadsheet</td></tr><tr><td><code>CLOSE_WIDGET</code></td><td>Import widget is closed</td></tr></tbody></table>
+Have any questions? Feel free to ping us over [discord](https://discord.impler.io).
