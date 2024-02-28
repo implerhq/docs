@@ -1,10 +1,10 @@
 # Table of contents
 
-## 🛡 Overview
+## 🛡️ Overview
 
-* [☺ Introduction](README.md)
+* [☺️ Introduction](README.md)
 * [🧿 Impler in 5 easy steps](overview/how-to-use-it.md)
-* [🏗 Architecture](overview/architecture.md)
+* [🏗️ Architecture](overview/architecture.md)
 * [🐋 Deploy using Docker](overview/deploy-using-docker.md)
 
 ## 🏂 Widget
@@ -21,10 +21,10 @@
 
 * [🔰 Validators](platform/validators.md)
 * [🤠 Output Customization](platform/output-customization.md)
-* [🗃 Data Seeding](platform/data-seeding.md)
+* [🗃️ Data Seeding](platform/data-seeding.md)
 * [🛸 Runtime Schema](platform/runtime-schema.md)
 * [🦄 Custom Validation](platform/custom-validation.md)
-* [📽 Activity Page](platform/activity-page.md)
+* [📽️ Activity Page](platform/activity-page.md)
 * [🤶 Manage Project](platform/manage-project.md)
 * [🎨 Default Value](platform/default-value.md)
 
