@@ -1,18 +1,18 @@
 # Table of contents
 
-## 🛡️ Overview
+## Overview
 
 * [☺️ Introduction](README.md)
 * [🧿 Impler in 5 easy steps](overview/how-to-use-it.md)
 * [🏗️ Architecture](overview/architecture.md)
 * [🐋 Deploy using Docker](overview/deploy-using-docker.md)
 
-## 🏂 Widget
+## Widget
 
 * [🪄 HTML & JS Embed](widget/iframe-embed.md)
 * [🌐 React Embed](widget/react-embed.md)
 
-## 💐 Data Retrieval
+## Data Retrieval
 
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
 * [🥂 Using REST API](data-retrieval/using-rest-api.md)
