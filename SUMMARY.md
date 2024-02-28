@@ -28,7 +28,7 @@
 * [🤶 Manage Project](platform/manage-project.md)
 * [🎨 Default Value](platform/default-value.md)
 
-## 🤝 Additional Resources
+## Additional Resources
 
 * [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [🔄 Data Migrations](additional-resources/data-migrations.md)
