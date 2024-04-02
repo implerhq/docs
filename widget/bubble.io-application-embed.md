@@ -9,7 +9,7 @@ description: >-
 ## 1. Setting Bubble App
 
 {% hint style="info" %}
-To use the Bubble Data API, which is necessary to push external data into the Bubble data store, you must have a paid Bubble application plan.
+**You must have a paid bubble application plan** to use the Bubble Data API, which is necessary to push external data into the Bubble data store.
 {% endhint %}
 
 ### **i. Setting up data type**
