@@ -11,11 +11,13 @@
 
 * [🪄 HTML & JS Embed](widget/iframe-embed.md)
 * [🌐 React Embed](widget/react-embed.md)
+* [🫧 Bubble.io Application Embed](widget/bubble.io-application-embed.md)
 
 ## Data Retrieval
 
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
-* [🥂 Using REST API](data-retrieval/using-rest-api.md)
+* [In Bubble.io](data-retrieval/in-bubble.io.md)
+* [🥂 Using REST API \[Depricated\]](data-retrieval/using-rest-api.md)
 
 ## Platform
 
