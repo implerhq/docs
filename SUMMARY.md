@@ -16,7 +16,6 @@
 ## Data Retrieval
 
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
-* [In Bubble.io](data-retrieval/in-bubble.io.md)
 * [🥂 Using REST API \[Depricated\]](data-retrieval/using-rest-api.md)
 
 ## Platform
