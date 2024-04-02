@@ -11,7 +11,7 @@
 
 * [🪄 HTML & JS Embed](widget/iframe-embed.md)
 * [🌐 React Embed](widget/react-embed.md)
-* [🫧 Bubble.io Application Embed](widget/bubble.io-application-embed.md)
+* [🫧 Bubble.io Embed](widget/bubble.io-embed.md)
 
 ## Data Retrieval
 

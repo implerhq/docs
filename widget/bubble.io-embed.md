@@ -4,7 +4,7 @@ description: >-
   application with bubble's no-code development platform.
 ---
 
-# 🫧 Bubble.io Application Embed
+# 🫧 Bubble.io Embed
 
 ## 1. Setting Bubble App
 
@@ -53,7 +53,7 @@ Go to the destination tab and enable Bubble.io. You will have to fill in the fol
 * **Bubble App Name** - This is the name of your Bubble.io app, in most cases it's available in a URL like <mark style="color:blue;">https://bubble.io/page?name=index\&id=impler-app\&tab=tabs-1</mark>, in which `impler-app` is the id.
 * **Custom Domain Name** - Provide the address of the domain name like <mark style="color:blue;">example.com</mark> if you have attached any custom domain to your application.
 * **Environment** - Pick from a development or production environment, based on which environment your app is running on.
-* **API Private Key** - It is the API token that you have generated while configuring the [#ii.-api-settings](bubble.io-application-embed.md#ii.-api-settings "mention") Bubble app.
+* **API Private Key** - It is the API token that you have generated while configuring the [#ii.-api-settings](bubble.io-embed.md#ii.-api-settings "mention") Bubble app.
 * **Data Type** - The name of the data type where data will be sent.
 
 Once done click on **Test and Save**, which will check details with bubble.io and save the data.
