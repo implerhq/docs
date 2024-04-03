@@ -24,7 +24,7 @@ Once you've created a new import, you'll need to add columns to your import spre
 
 For your convenience, we have attached an image below to illustrate this step
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Click on + to add column to Import</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Click on + to add column to Import</p></figcaption></figure>
 
 ### 4. Provide API Destination (Optional):
 

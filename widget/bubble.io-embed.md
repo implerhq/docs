@@ -94,6 +94,33 @@ Now use the drag and drop Import Button element from the UI panel to add the Imp
 
 &#x20;Project Id, Template Id, and Access Token are found in the **Destination** section of the application.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Getting credentials from Impler portal for Bubble Plugin</p></figcaption></figure>
 
-Once done CSV & Excel Import functionality is ready in your application. If you face any issues you can chat with us using 💬 box in the bottom left corner.
+Once done CSV & Excel Import functionality is ready in your application.
+
+## 4. Considering UserId while importing data
+
+### i. Configuring import plugin to consider UserId
+
+The impler import plugin provides a field for **User Id**, which you can provide as static text or dynamic value. And it's optional.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Providing userId</p></figcaption></figure>
+
+### ii. Verifying the format of data that will be sent to the bubble
+
+Impler output format includes a user field that takes the provided **User Id** and passes it to the bubble.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+**If your datatype has a user field with some different name then it's required to replace the name in the schema too.** So if your datatype has `userid` then your output schema will look like,
+
+```json5
+{
+  "userId": "{{extra.userId}}",
+  ...
+}
+```
+
+**If you're not taking user input then remove the `user` from output schema.** Due to strict bubble data acceptance conditions, records with extra fields get rejected.
+
+If you face any issues you can chat with us using 💬 box in the bottom left corner. Or join our [discord](https://discord.impler.io) server to chat with us.
