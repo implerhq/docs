@@ -1,26 +1,28 @@
 ---
 description: >-
-  Impler is open-source data import infrastructure, built for engineering teams
+  Impler is an open-source data import infrastructure, built for engineering teams
   to help them build rich data import experience without constantly reinventing
   the wheel.
 ---
 
-# ☺ Introduction
+# Introduction 👋
 
-## Why?
+## Why? 🤔
 
-The ability to import data is often needed in the application. It usually starts the same, reading  `.csv` or `.xlsx` file and insert records into the database. But after a while, you'll find yourself looping over large files, validating rows, and providing support for file types that you've never heard of them before.
+The ability to import data is often needed in the application. It usually starts with reading a `.csv` or `.xlsx` file and inserting records into the database. But after a while, you'll find yourself looping over large files, validating rows, and providing support for file types you've never heard of.
 
-Impler's goal is to help developers create an efficient and smooth data import experience between the product and its users. All with an easy-to-use API and outstanding developer experience.
+## Goal  🥅
 
-## Integrated into your Product
+Help developers create an efficient and smooth data import experience between the product and its users with an easy-to-use API and outstanding developer experience.
 
-Integration of the import widget in your product can just take a few minutes. Feature-rich experience of the widget makes the data onboarding experience fun for users. Users can map columns and even review invalid records in their spreadsheets so that the right data gets imported.
+## Integrated into your Product 🚀
 
-As developers, we tend to care about the performance of the application, but following the growing number of file types support, mapping and data validation become a burden on the team and make life hard.
+Integration of the import widget in your product can take a few minutes. A feature-rich experience of the widget makes the data onboarding experience fun for users. Users can map columns and even review invalid records in their spreadsheets so that the right data gets imported.
 
-## Free and Open Source
+As developers, we tend to care about the performance, but following the growing number of file types support, mapping, and data validation become a burden on the team and make life hard.
 
-One of the reasons for making Impler free was giving back to the community. We heard from many teams and we also felt `How hard it's to give support for Data import functionality`. So to make it accessible to everyone, we decided to build the Impler with awesome people like you.
+## Free and Open Source 
 
-We welcome and appreciate everyone's suggestions and improvements, come join us on [Discord](https://discord.gg/qRhSpBXVCt) and [GitHub](https://github.com/knovator/impler.io).
+One of the reasons for making Impler free was to give back to the community. We heard from many teams and felt `"How hard it is to support Data import functionality!"`. So to make it accessible to everyone, we decided to build the Impler with awesome people like you.
+
+We welcome and appreciate everyone's suggestions and improvements, join us on [Discord](https://discord.gg/qRhSpBXVCt) and [GitHub](https://github.com/knovator/impler.io)
