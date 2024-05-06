@@ -3,7 +3,7 @@
 ## Overview
 
 * [☺️ Introduction](README.md)
-* [🧿 Impler in 5 easy steps](overview/how-to-use-it.md)
+* [🧿 How to use it? In 5 steps](overview/how-to-use-it.md)
 * [🏗️ Architecture](overview/architecture.md)
 * [🐋 Deploy using Docker](overview/deploy-using-docker.md)
 
