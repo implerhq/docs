@@ -1,7 +1,7 @@
 ---
 description: >-
-  Enjoy the benefits of a readymade CSV Excel import experience in your
-  application with bubble's no-code development platform.
+  Add readymade, scalable, and powerful CSV Excel import experience in your
+  Bubble.io application.
 ---
 
 # 🫧 Bubble.io Embed
@@ -44,9 +44,11 @@ Visit [web.impler.io](https://web.impler.io) and log in.
 
 ### ii. Write an appropriate name and click on "Create & Continue"
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Give appropriate name in create Import for</p></figcaption></figure>
 
-#### iii. Enable bubble destination and fill in the details
+### iii. Enable bubble destination and fill in the details
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
 
 Go to the destination tab and enable Bubble.io. You will have to fill in the following information, Bubble App Name:&#x20;
 
@@ -58,9 +60,7 @@ Go to the destination tab and enable Bubble.io. You will have to fill in the fol
 
 Once done click on **Test and Save**, which will check details with bubble.io and save the data.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
-
-#### iv. Map Columns
+### iv. Map Columns
 
 Click on **Map Columns** to automatically map fields from bubble data type to Impler.
 
@@ -70,9 +70,9 @@ Impler adds **user: \{{extra.userId\}}** field to output considering you want to
 
 ## 3. Using the Plugin
 
-### i. Install plugin
-
 The last step is to add a readymade import plugin to your application.
+
+### i. Install plugin
 
 1. Go to Plugins and click on **Add Plugins**
 2. Search for **CSV Excel Import Plugin**
@@ -82,12 +82,12 @@ The last step is to add a readymade import plugin to your application.
 
 ### ii. Use Plugin
 
-Now use the drag and drop Import Button element from the UI panel to add the Import button in the application.
+Now use the drag and drop **Import Button** element from the UI panel to add the Import button in the application. You can search for **Import Button** or **Impler** to find the Import button.
 
 1. **Project Id** - Project from which import is happening
 2. **Template Id** - Import Id in which data is getting imported
 3. **Access Token** - Security token used to authenticate communication.
-4. **Primary Color** - Change the color theme of the import widget by selecting the color of your application.
+4. **Primary Color** - Change the import widget's color theme by selecting your application's color.
 5. **User Id** - Provide the User ID of the current user importing data into the application.
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
@@ -102,25 +102,16 @@ Once done CSV & Excel Import functionality is ready in your application.
 
 ### i. Configuring import plugin to consider UserId
 
-The impler import plugin provides a field for **User Id**, which you can provide as static text or dynamic value. And it's optional.
+The impler import plugin provides a field for **User Id**, where one can provide static text or dynamic value as User ID. It's optional. Very useful while adding a relationship with user.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Providing userId</p></figcaption></figure>
 
-### ii. Verifying the format of data that will be sent to the bubble
+### ii. Passing userId to Bubble.io when data is imported
 
-Impler output format includes a user field that takes the provided **User Id** and passes it to the bubble.
+If you're taking static or dynamic userId field, you have to append `"user": {{extra.userId}}` in output schema.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Adding userId in output format</p></figcaption></figure>
 
-**If your datatype has a user field with some different name then it's required to replace the name in the schema too.** So if your datatype has `userid` then your output schema will look like,
-
-```json5
-{
-  "userId": "{{extra.userId}}",
-  ...
-}
-```
-
-**If you're not taking user input then remove the `user` from output schema.** Due to strict bubble data acceptance conditions, records with extra fields get rejected.
+Here **user** is the field name in Bubble.io. You need to follow the name you have in your Bubble.io application.
 
 If you face any issues you can chat with us using 💬 box in the bottom left corner. Or join our [discord](https://discord.impler.io) server to chat with us.
