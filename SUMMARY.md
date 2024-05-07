@@ -9,9 +9,9 @@
 
 ## Widget
 
-* [🪄 HTML & JS Embed](widget/iframe-embed.md)
 * [🌐 React Embed](widget/react-embed.md)
 * [🫧 Bubble.io Embed](widget/bubble.io-embed.md)
+* [🪄 HTML & JS Embed](widget/iframe-embed.md)
 
 ## Data Retrieval
 
