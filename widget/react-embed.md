@@ -88,7 +88,7 @@ Allowed values for colorScheme are **light** or **dark**.
 showWidget({ colorScheme: 'light' })
 ```
 
-## [Data Seeding](../platform/data-seeding.md) in Sample File
+## [Data Seeding](../features/data-seeding.md) in Sample File
 
 You can provide default data to fill in the Sample file that gets generated from the Import widget. Default data act as a placeholder for the user to further add or update the data.
 
@@ -104,7 +104,7 @@ showWidget({
 });
 ```
 
-## Providing [Runtime Schema](../platform/runtime-schema.md)
+## Providing [Runtime Schema](../features/runtime-schema.md)
 
 The schema and output provided in the [web.impler.io](https://web.impler.io) portal for any import behave as default values for any Import. It's possible to override the default schema and output, to adapt dynamic nature of Import.
 

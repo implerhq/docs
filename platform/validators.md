@@ -1,7 +1,5 @@
 ---
-description: >-
-  Explore the powerful validation options available for columns within our data
-  import application
+description: Utilize default validation options to build your ideal data import experience.
 layout:
   title:
     visible: true
@@ -28,17 +26,11 @@ Each validator is designed to enforce specific rules on the column values, contr
 3. **Email Validator**: With the Email validator, you can ensure that the column value conforms to a valid email format. This is particularly useful when dealing with email-related data.
 4. **Regex Validator**: The Regex validator enables you to define a custom regular expression pattern that the column value must match. This versatile validator accommodates complex validation scenarios.
 5. **Select Validator**: Use the Select validator to restrict column values to a predefined set of options. For instance, you can use it to ensure that a "Gender" column contains only values like "Male" or "Female."
-6. **Any Validator**: The Any validator offers maximum flexibility by allowing any value in the column. This is handy when you don't need specific validation constraints.
+6. **Any Validator**: Any validator offers maximum flexibility by allowing any value in the column. This is handy when you don't need specific validation constraints.
 
 ### Validator Enhancements
 
 * **isRequired**: When enabled, the isRequired checkbox mandates that a value must exist in each row of the column. This guarantees that essential data is not missing.
 * **isUnique**: Enabling the isUnique checkbox ensures that the values in the column are unique throughout the entire spreadsheet. This prevents duplicate entries and promotes data accuracy.
 
-Developers have the freedom to add each column individually and can directly modify the column JSON, tailoring the validation rules to their specific data import requirements.
-
-Impler's validation system empowers developers and data engineers to create reliable data import workflows while maintaining data quality and integrity.
-
-With Impler's rich array of validation options, you can confidently import data from spreadsheets, knowing that each column's content adheres to your predefined criteria.
-
-Take advantage of these validators to build robust and error-free data pipelines that suit your unique needs.
+It's possible to extend validation functionality to adjust according to your needs. Read more in [custom-validation.md](../features/custom-validation.md "mention").

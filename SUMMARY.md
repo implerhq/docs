@@ -18,16 +18,19 @@
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
 * [🥂 Using REST API \[Depricated\]](data-retrieval/using-rest-api.md)
 
+## Features
+
+* [🗃️ Data Seeding](features/data-seeding.md)
+* [🤠 Output Customization](features/output-customization.md)
+* [🦄 Custom Validation](features/custom-validation.md)
+* [🛸 Runtime Schema](features/runtime-schema.md)
+* [🤶 Manage Project](features/manage-project.md)
+* [🎨 Default Value](features/default-value.md)
+
 ## Platform
 
 * [🔰 Validators](platform/validators.md)
-* [🤠 Output Customization](platform/output-customization.md)
-* [🗃️ Data Seeding](platform/data-seeding.md)
-* [🛸 Runtime Schema](platform/runtime-schema.md)
-* [🦄 Custom Validation](platform/custom-validation.md)
 * [📽️ Activity Page](platform/activity-page.md)
-* [🤶 Manage Project](platform/manage-project.md)
-* [🎨 Default Value](platform/default-value.md)
 
 ## Additional Resources
 
