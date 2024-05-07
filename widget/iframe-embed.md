@@ -300,4 +300,4 @@ window.impler.show({
 });
 ```
 
-Have any questions? Feel free to ping us over [discord](https://discord.impler.io).
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

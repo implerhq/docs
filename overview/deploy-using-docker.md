@@ -46,3 +46,5 @@ To help you get started fast, we have integrated the following services with doc
 * `mongodb` - Used as a database
 
 We recommend you decouple the database in order to keep the data safe.
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

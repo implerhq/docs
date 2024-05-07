@@ -2,7 +2,7 @@
 description: Your hub for tracking and understanding your import activity.
 ---
 
-# 📽 Activity Page
+# 📽️ Activity Page
 
 The Activity Page provides a comprehensive overview of your data imports, giving you insights into import statistics, trends, and detailed histories.
 
@@ -47,3 +47,5 @@ The Activity Page serves as a valuable resource for gaining insights into your i
 Whether you're seeking a quick overview or a comprehensive analysis, the Activity Page equips you with the tools you need to assess your data import processes effectively.
 
 Impler's Activity Page is designed to streamline your import tracking, optimize your workflow, and empower you with data-driven decision-making capabilities.
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

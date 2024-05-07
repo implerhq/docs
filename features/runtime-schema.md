@@ -54,3 +54,5 @@ Here are the keys&#x20;
 * `selectValues (optional)`: Select values indicating what are the possible values when the type is select.
 * `regex (optional)`: A regular expression to override when the type is `regex`.
 * `dateFormats (optional)`: Date formats indicating a list of formats acceptable for the date field. Required when type is `Date`. For example, `['dd/mm/yyyy','dd/mm/yy']`
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

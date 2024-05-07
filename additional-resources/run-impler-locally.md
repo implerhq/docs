@@ -135,4 +135,4 @@ npm run test:api
 
 ## [Running Migrations](run-impler-locally.md#running-migrations)
 
-We're always around in [Discord](https://discord.impler.io). Please join if you didn't, would love to answer your questions, and solve your queries.
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

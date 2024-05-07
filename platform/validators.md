@@ -34,3 +34,5 @@ Each validator is designed to enforce specific rules on the column values, contr
 * **isUnique**: Enabling the isUnique checkbox ensures that the values in the column are unique throughout the entire spreadsheet. This prevents duplicate entries and promotes data accuracy.
 
 It's possible to extend validation functionality to adjust according to your needs. Read more in [custom-validation.md](../features/custom-validation.md "mention").
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

@@ -40,3 +40,4 @@
 ***
 
 * [Changelog](https://changelog.impler.io)
+* [FAQs](faqs.md)

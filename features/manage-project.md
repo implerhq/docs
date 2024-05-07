@@ -41,3 +41,4 @@ You also have the flexibility to create new projects right from the dropdown men
 * **Enhanced Workflow**: Maintain a tidy workspace for efficient import management.
 
 The projects feature in Impler provides a dynamic way to categorize, access, and switch between different sets of imports.\
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

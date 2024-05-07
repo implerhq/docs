@@ -134,3 +134,5 @@ Impler's custom validation functionality is built on a scalable architecture, al
 With custom validation in Impler, you have the flexibility to implement intricate validation logic, ensuring data integrity and quality in your import processes.
 
 This feature empowers you to customize your imports to meet your specific needs, making complex data imports more accessible and efficient.
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

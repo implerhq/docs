@@ -104,7 +104,7 @@ Once done CSV & Excel Import functionality is ready in your application.
 
 The impler import plugin provides a field for **User Id**, where one can provide static text or dynamic value as User ID. It's optional. Very useful while adding a relationship with user.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Providing userId</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Providing userId</p></figcaption></figure>
 
 ### ii. Passing userId to Bubble.io when data is imported
 
@@ -114,4 +114,4 @@ If you're taking static or dynamic userId field, you have to append `"user": {{e
 
 Here **user** is the field name in Bubble.io. You need to follow the name you have in your Bubble.io application.
 
-If you face any issues you can chat with us using 💬 box in the bottom left corner. Or join our [discord](https://discord.impler.io) server to chat with us.
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

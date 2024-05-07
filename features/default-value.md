@@ -59,3 +59,5 @@ const schema = {
 ```
 
 The Default Value functionality provides flexibility and control to developers when importing data. Whether dealing with optional columns or handling empty values, this feature enhances the overall data import experience.
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

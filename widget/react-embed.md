@@ -196,3 +196,5 @@ const { showWidget, isImplerInitiated } = useImpler({
     }
 });
 ```
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

@@ -5,7 +5,7 @@ description: >-
   modify data.
 ---
 
-# 🗃 Data Seeding
+# 🗃️ Data Seeding
 
 {% hint style="info" %}
 Available after impler version `0.9.1`&#x20;
@@ -54,3 +54,5 @@ function onShowWidgetClick = () => {
 With the Data Seeding feature in Impler, you can save time and effort by automating the generation of sample files.
 
 This is particularly valuable when importing data with complex relationships, ensuring a smooth and efficient data import experience.
+
+Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
