@@ -37,7 +37,7 @@
 
 * [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [🔄 Data Migrations](additional-resources/data-migrations.md)
-* [✍️ Writing into xlsm files](additional-resources/writing-into-xlsm-files.md)
+* [✍️ Writing effectively into .xlsm files](additional-resources/writing-effectively-into-.xlsm-files.md)
 
 ***
 
