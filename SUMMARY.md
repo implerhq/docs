@@ -26,6 +26,7 @@
 * [🛸 Runtime Schema](features/runtime-schema.md)
 * [🤶 Manage Project](features/manage-project.md)
 * [🎨 Default Value](features/default-value.md)
+* [✨ Multiselect Dropdown](features/multiselect-dropdown.md)
 
 ## Platform
 
@@ -36,6 +37,7 @@
 
 * [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [🔄 Data Migrations](additional-resources/data-migrations.md)
+* [✍️ Writing into xlsm files](additional-resources/writing-into-xlsm-files.md)
 
 ***
 
