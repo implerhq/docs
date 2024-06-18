@@ -58,7 +58,7 @@ Impler creates `.xlsx` and `.xlsm` files based on the columns' configuration:
 
 When a column is marked as Multiselect, Impler appends `#MULTI` to the end of the column name in the Excel file. This allows users to select multiple options in the cell.
 
-For detailed steps on how to write in `.xlsm` files, refer to [writing-effectively-into-.xlsm-files.md](../additional-resources/writing-effectively-into-.xlsm-files.md "mention").
+For detailed steps on how to write in `.xlsm` files refer to [writing-effectively-into-.xlsm-files.md](../additional-resources/writing-effectively-into-.xlsm-files.md "mention").
 
 ## Data Format
 
