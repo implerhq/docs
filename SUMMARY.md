@@ -33,6 +33,7 @@
 
 * [🔰 Validators](platform/validators.md)
 * [📽️ Activity Page](platform/activity-page.md)
+* [🏁 Subscription Management](platform/subscription-management.md)
 
 ## Additional Resources
 
