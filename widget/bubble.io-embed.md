@@ -48,13 +48,13 @@ Visit [web.impler.io](https://web.impler.io) and log in.
 
 ### iii. Enable bubble destination and fill in the details
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
 
-Go to the destination tab and enable Bubble.io. You will have to fill in the following information, Bubble App Name:&#x20;
+Go to the destination tab and enable Bubble.io. And fill in the following information,
 
 * **Bubble App Name** - This is the name of your Bubble.io app, in most cases it's available in a URL like <mark style="color:blue;">https://bubble.io/page?name=index\&id=impler-app\&tab=tabs-1</mark>, in which `impler-app` is the id.
-* **Custom Domain Name** - Provide the address of the domain name like <mark style="color:blue;">example.com</mark> if you have attached any custom domain to your application.
-* **Environment** - Pick from a development or production environment, based on which environment your app is running on.
+* **Environment** - Pick from a _development_ or _production_ environment, based on which environment your app is running on.
+  * **Custom Domain Name** - If environment is _production_, provide domain name address like <mark style="color:blue;">example.com</mark> if you have attached any custom domain to your application.
 * **API Private Key** - It is the API token that you have generated while configuring the [#ii.-api-settings](bubble.io-embed.md#ii.-api-settings "mention") Bubble app.
 * **Data Type** - The name of the data type where data will be sent.
 
@@ -104,7 +104,7 @@ Once done CSV & Excel Import functionality is ready in your application.
 
 The impler import plugin provides a field for **User Id**, where one can provide static text or dynamic value as User ID. It's optional. Very useful while adding a relationship with user.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Providing userId</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Providing userId</p></figcaption></figure>
 
 ### ii. Passing userId to Bubble.io when data is imported
 
