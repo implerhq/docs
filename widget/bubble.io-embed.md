@@ -38,15 +38,15 @@ Prepare a data type in your Bubble app where you want to push the CSV data. Ensu
 
 Visit [web.impler.io](https://web.impler.io) and log in.
 
-### i. Click on the "Create Import" button to get started with the new import
+### i. Click on the "Create Import" to create the new import
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Click on "Create Import" button</p></figcaption></figure>
 
-### ii. Write an appropriate name and click on "Create & Continue"
+### ii. Give name and click on "Create & Continue"
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Give appropriate name in create Import for</p></figcaption></figure>
 
-### iii. Enable bubble destination and fill in the details
+### iii. Enable Bubble.io destination
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
 
