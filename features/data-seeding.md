@@ -21,8 +21,8 @@ Here is how to do it,
 import { useImpler } from '@impler/react';
 
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "...",
     projectId: "...",
+    templateId: "...",
     accessToken: "...",
 });
 

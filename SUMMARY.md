@@ -43,5 +43,5 @@
 
 ***
 
-* [Changelog](https://changelog.impler.io)
 * [FAQs](faqs.md)
+* [Changelog](https://changelog.impler.io)

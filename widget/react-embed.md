@@ -38,9 +38,9 @@ yarn add @impler/react
 import { useImpler } from '@impler/react';
 
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "",
     projectId: "",
-    accessToken: ""
+    templateId: "",
+    accessToken: "",
 });
 
 <button disabled={!isImplerInitiated} onClick={showWidget}>
@@ -49,7 +49,7 @@ const { showWidget, isImplerInitiated } = useImpler({
 ```
 
 {% hint style="info" %}
-`isImplerIntiated` becomes _true_ when the import widget is ready to be open and importing data. It remains _false_ when there are some errors with the provided values. Errors get logged in the console panel of the browser.
+`isImplerIntiated` becomes _true_ when the import widget is ready to open and import data. It remains _false_ when there are some errors with the provided values. Errors get logged in the console panel of the browser.
 {% endhint %}
 
 ## Listening for Events
@@ -60,9 +60,9 @@ const { showWidget, isImplerInitiated } = useImpler({
 
 ```jsx
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "",
     projectId: "",
-    accessToken: ""
+    templateId: "",
+    accessToken: "",
     onUploadStart: (uploadInfo) => {
         console.log("User Started Importing", uploadInfo);
     },
@@ -142,9 +142,9 @@ You can pass `string`, `object`, or `array` in extra. Here is an example of how 
 
 ```javascript
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "",
     projectId: "",
-    accessToken: ""
+    templateId: "",
+    accessToken: "",
     extra: {
         userId: '4ddhodw3',
         time: new Date().this string()
@@ -162,9 +162,9 @@ Here is how,
 
 ```javascript
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "",
     projectId: "",
-    accessToken: ""
+    templateId: "",
+    accessToken: "",
     title: "Employee Import"
 });
 ```
@@ -175,9 +175,9 @@ You can pass a primary color to the import widget, which will update the colors 
 
 ```javascript
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "",
     projectId: "",
-    accessToken: ""
+    templateId: "",
+    accessToken: "",
     primaryColor: '#5f45ff'
 });
 ```
@@ -188,9 +188,9 @@ In case the backend endpoint is authenticated with the token, it's possible to p
 
 ```javascript
 const { showWidget, isImplerInitiated } = useImpler({
-    templateId: "",
     projectId: "",
-    accessToken: ""
+    templateId: "",
+    accessToken: "",
     authHeaderValue: async () => {
         return "..."
     }

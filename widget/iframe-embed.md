@@ -74,8 +74,8 @@ After the initialization, when the user clicks on the Import button we will call
 ImplerBtn.addEventListener("click", (e) => {
   window.impler.show({
     uuid,
-    templateId: "", // templateId
     projectId: "", // projectId
+    templateId: "", // templateId
     accessToken: "", // accessToken
   });
 });
@@ -167,8 +167,8 @@ window.impler.on('message', (eventData) => {}, uuid);
           EleBtnOpenImpler.addEventListener("click", (e) => {
             window.impler.show({
               uuid,
-              templateId: "",
               projectId: "",
+              templateId: "",
               accessToken: "",
               // Get these credentials from https://web.impler.io, (create import, add columns, got to "snippet", open "Add Import Button" to find credentials)
               // find out about more options here: https://docs.impler.io/widget/react-embed#props
@@ -190,8 +190,8 @@ Here is an example of how to provide data to fill in the sample file,
 ```javascript
 window.impler.show({
   uuid,
-  templateId: "",
   projectId: "",
+  templateId: "",
   accessToken: "",
   data: [
     { country: 'ABC' },
@@ -210,8 +210,8 @@ Here is an example of how to provide dynamic schema and output,
 ```javascript
 window.impler.show({
   uuid,
-  templateId: "",
   projectId: "",
+  templateId: "",
   accessToken: "",
   schema: JSON.stringify([
     {
@@ -244,8 +244,8 @@ You can pass `string`, `object`, or `array` in extra. Here is an example of how 
 ```javascript
 window.impler.show({
   uuid,
-  templateId: "",
   projectId: "",
+  templateId: "",
   accessToken: "",
   extra: JSON.stringify({
       userId: '4ddhodw3',
@@ -265,8 +265,8 @@ Here is how,
 ```javascript
 window.impler.show({
   uuid,
-  templateId: "",
   projectId: "",
+  templateId: "",
   accessToken: "",
   title: "Employee Import"
 });
@@ -279,8 +279,8 @@ You can pass a primary color to the import widget, which will update the colors 
 ```javascript
 window.impler.show({
   uuid,
-  templateId: "",
   projectId: "",
+  templateId: "",
   accessToken: "",
   primaryColor: '#5f45ff'
 });
@@ -293,8 +293,8 @@ In case the backend endpoint is authenticated with the token, it's possible to p
 ```javascript
 window.impler.show({
   uuid,
-  templateId: "",
   projectId: "",
+  templateId: "",
   accessToken: "",
   authHeaderValue: '...'
 });
