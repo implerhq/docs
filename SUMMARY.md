@@ -6,6 +6,7 @@
 * [🧿 How to use it? In 5 steps](overview/how-to-use-it.md)
 * [🏗️ Architecture](overview/architecture.md)
 * [🐋 Deploy using Docker](overview/deploy-using-docker.md)
+* [👥 FAQs](overview/faqs.md)
 
 ## Widget
 
@@ -43,5 +44,4 @@
 
 ***
 
-* [FAQs](faqs.md)
 * [Changelog](https://changelog.impler.io)
