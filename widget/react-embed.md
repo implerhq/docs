@@ -54,7 +54,7 @@ const { showWidget, isImplerInitiated } = useImpler({
 
 ## Listening for Events
 
-<table><thead><tr><th>Prop</th><th width="145">Type</th><th>Description</th></tr></thead><tbody><tr><td>onUploadStart</td><td>(value) => void</td><td>Function that get's called when user starts upload</td></tr><tr><td>onUploadTerminate</td><td>(value) => void</td><td>Function that get's called when user leaves spreadsheet import in between</td></tr><tr><td>onUploadComplete</td><td>(value) => void</td><td>Function that gets called when user completes the import</td></tr><tr><td>onWidgetClose</td><td>() => void</td><td>Function that gets called when widget is closed</td></tr></tbody></table>
+<table><thead><tr><th>Prop</th><th width="145">Type</th><th>Description</th></tr></thead><tbody><tr><td>onUploadStart</td><td>(value) => void</td><td>Function that get's called when user starts upload</td></tr><tr><td>onUploadTerminate</td><td>(value) => void</td><td>Function that get's called when user leaves spreadsheet import in between</td></tr><tr><td>onUploadComplete</td><td>(value) => void</td><td>Function that gets called when user completes the import</td></tr><tr><td>onWidgetClose</td><td>() => void</td><td>Function that gets called when widget is closed</td></tr><tr><td>onDataImported</td><td>(data) => void</td><td>Function that gets called with all imported data. Read more at <a data-mention href="../data-retrieval/using-frontend-callback.md">using-frontend-callback.md</a></td></tr></tbody></table>
 
 #### Usage Example
 
@@ -74,6 +74,9 @@ const { showWidget, isImplerInitiated } = useImpler({
     },
     onWidgetClose: () => {
         console.log("Import widget is closed");
+    },
+    onDataImported: (data) => {
+        console.log("Imported data:", data);
     }
 });
 ```

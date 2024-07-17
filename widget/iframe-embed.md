@@ -95,7 +95,7 @@ window.impler.on('message', (eventData) => {}, uuid);
 
 `eventData` follows the `{ type, value }` structure.
 
-<table><thead><tr><th width="241">type</th><th width="146">value</th><th>Description</th></tr></thead><tbody><tr><td><code>UPLOAD_STARTED</code></td><td>ImportData</td><td>User has started import by selecting file and clicking on <code>See Mapping</code></td></tr><tr><td><code>UPLOAD_TERMINATED</code></td><td>ImportData</td><td>The user canceled the import in the middle of the import process.</td></tr><tr><td><code>UPLOAD_COMPLETED</code></td><td>ImportData</td><td>The user has completed the import.</td></tr><tr><td><code>CLOSE_WIDGET</code></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="241">type</th><th width="146">value</th><th>Description</th></tr></thead><tbody><tr><td><code>UPLOAD_STARTED</code></td><td>UploadData</td><td>User has started import by selecting file and clicking on <code>See Mapping</code></td></tr><tr><td><code>UPLOAD_TERMINATED</code></td><td>UploadData</td><td>The user canceled the import in the middle of the import process.</td></tr><tr><td><code>UPLOAD_COMPLETED</code></td><td>UploadData</td><td>The user has completed the import.</td></tr><tr><td><code>CLOSE_WIDGET</code></td><td></td><td>The user has closed the import widget.</td></tr><tr><td><code>DATA_IMPORTED</code></td><td>ImportedData</td><td>Imported data has received on frontend.</td></tr></tbody></table>
 
 ## Complete Code Example
 
@@ -106,40 +106,10 @@ window.impler.on('message', (eventData) => {}, uuid);
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acme Inc</title>
-    <style>
-      body {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-  
-      #btnOpenImpler {
-        padding: 15px 0;
-        width: 200px;
-        border: none;
-        outline: none;
-        font-family: sans-serif;
-        background-color: rgb(122, 122, 233);
-        color: aliceblue;
-        font-size: 16px;
-        border-radius: 5px;
-        transition: transform 0.1s ease;
-        cursor: pointer;
-      }
-  
-      #btnOpenImpler:hover {
-        box-shadow: 0 5px 1rem 0 rgb(87, 87, 179, 50%);
-      }
-  
-      #btnOpenImpler:active {
-        transform: translateY(2px);
-      }
-    </style>
   </head>
   
   <body>
-    <button class="btn btn-primary" disabled id="btnOpenImpler">
+    <button disabled id="btnOpenImpler">
       Import
     </button>
   
@@ -163,7 +133,7 @@ window.impler.on('message', (eventData) => {}, uuid);
               EleBtnOpenImpler.removeAttribute("disabled");
             }
           }, 1000);
-  
+          
           EleBtnOpenImpler.addEventListener("click", (e) => {
             window.impler.show({
               uuid,
@@ -174,6 +144,31 @@ window.impler.on('message', (eventData) => {}, uuid);
               // find out about more options here: https://docs.impler.io/widget/react-embed#props
             });
           });
+          
+          window.impler.on('message', (eventData) => {
+            switch (eventData.type) {
+              case "WIDGET_READY":
+                console.log("Widget is ready");
+                break;
+              case "CLOSE_WIDGET":
+                console.log("Widget is closed");
+                break;
+              case "UPLOAD_STARTED":
+                console.log("Upload started", eventData.value);
+                break;
+              case "UPLOAD_TERMINATED":
+                console.log("Upload skipped in middle", eventData.value);
+                break;
+              case "UPLOAD_COMPLETED":
+                console.log("Upload completed", eventData.value);
+                break;
+              case "DATA_IMPORTED":
+                console.log("Data imported", eventData.value);
+                break;
+              default:
+                break;
+            }
+          }, uuid);
         }
       };
     </script>

@@ -17,7 +17,7 @@
 ## Data Retrieval
 
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
-* [🥂 Using REST API \[Depricated\]](data-retrieval/using-rest-api.md)
+* [💠 Using Frontend Callback](data-retrieval/using-frontend-callback.md)
 
 ## Features
 
