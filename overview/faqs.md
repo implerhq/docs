@@ -31,4 +31,21 @@ No, logged-in user cookies won't be passed to your server. Validator calls are b
 
 </details>
 
+<details>
+
+<summary>Is there any way to access user uploaded file?</summary>
+
+Yes, Impler provides a REST API endpoint to fetch a user-uploaded file. Here is CURL,
+
+```
+curl --location --request GET 'https://api.impler.io/v1/upload/:uploadId/files/original' \
+--header 'accesskey: <ACCESS_TOKEN>'
+```
+
+You can get `:uploadId` using `Upload Complete` event and `ACCESS_TOKEN` will be available from the Settings panel.
+
+API will send a file with headers `Content-Type` and `Content-Disposition` as values for file type and filename respectively.
+
+</details>
+
 Still, have any doubts? Please shoot us a message directly on [Discord](https://discord.impler.io).
