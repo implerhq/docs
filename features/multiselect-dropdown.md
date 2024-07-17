@@ -7,26 +7,23 @@ description: >-
 
 # ✨ Multiselect Dropdown
 
-## Enabling Multiselect Dropdown
-
-To enable the multiselect dropdown in the Impler web portal, follow these steps:
-
-### i. Enable Multiselect for a new column
+### i. Enable Multiselect from web portal
 
 1. Click on the `+` button to add a new column.
-2. Provide column `Name`, `Key name` , and `Type` as `List` and pick `Select Values` based on your choice.
-3. Check `Multi Select?` checkbox for the column.
+2. Provide column `Name` and `Type` = `Select`.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Add Multiselect Column </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Add Select Column</p></figcaption></figure>
 
-### ii. **Enable Multiselect for the old column**
+3. Click on `Validations`.
 
-1. Click on the Pencil (Edit) icon for any created column.
-2. Mark the `Column Type` as `Select` and add appropriate values in `Select Values` field.
-3. Check the `Multi Select?` checkbox.
-4. Click on `Save`.
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Multiselect Validations</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Editing the column to enable multi select</p></figcaption></figure>
+4. We can provide allowed values in `Select Values`.
+5. We can also enable Multi Select for select column. Which allows user to select multiple values in the cell.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Specifying Delimiter</p></figcaption></figure>
+
+6. Additionally we can sepcify `,` or `;` as delimiter for multi-select values.
 
 ### iii. Enabling Multiselect Dropdown using [Runtime Schema](runtime-schema.md)
 
@@ -40,7 +37,8 @@ showWidget({
       name: 'Eating Choice',
       type: 'Select',
       selectValues: ['Fruit', 'Vegetables', 'Nuts'],
-      allowMultiSelect: true
+      allowMultiSelect: true,
+      delimiter: ';'
     }
   ]
 });
@@ -62,10 +60,6 @@ For detailed steps on how to write in `.xlsm` files refer to [writing-effectivel
 
 ## Data Format
 
-Columns with the Multiselect feature will send an array of selected values when sent to the user via webhook.
-
-## Summary
-
-The Multiselect feature is a powerful tool that enhances the flexibility of data selection in Impler. By either using the web portal or custom schema, users can easily enable this feature to accommodate various use cases. The distinction between `.xlsx` and `.xlsm` files ensures that the data is correctly processed and displayed according to the column configurations.
+Columns with the Multiselect feature will send an array of selected values when sent to application [using-webhook.md](../data-retrieval/using-webhook.md "mention") or [using-frontend-callback.md](../data-retrieval/using-frontend-callback.md "mention").
 
 Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

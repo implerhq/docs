@@ -16,7 +16,7 @@ description: >-
 
 Prepare a data type in your Bubble app where you want to push the CSV data. Ensure that the data type is `Publicly visible`. Add custom fields to the data type as per your requirements.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important:** Manually add at least one entry to the data type to map columns accurately.
@@ -48,7 +48,7 @@ Visit [web.impler.io](https://web.impler.io) and log in.
 
 ### iii. Enable Bubble.io destination
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
 
 Go to the destination tab and enable Bubble.io. Fill in the following information,
 
@@ -122,7 +122,7 @@ The impler import plugin provides a field for **User Id**, where one can provide
 
 If you're taking static or dynamic userId field, you have to append `"user": {{extra.userId}}` in output schema.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Adding userId in output format</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Adding userId in output format</p></figcaption></figure>
 
 Here **user** is the field name in Bubble.io. You need to follow the name you have in your Bubble.io application.
 
