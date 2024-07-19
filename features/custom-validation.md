@@ -93,8 +93,8 @@ exports.code = async (params) => {
       index: item.index,
       errors: {},
     }
-    if(userEmails.includes(item.email)) {
-      errors['email'] = "Email must be unique."
+    if(userEmails.includes(item.record.email)) {
+      error.errors['email'] = "Email must be unique."
     }
     errorRecords.push(error);
   }
