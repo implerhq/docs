@@ -29,6 +29,7 @@
 * [🎨 Default Value](features/default-value.md)
 * [✨ Multiselect Dropdown](features/multiselect-dropdown.md)
 * [🧊 Freeze Columns](features/freeze-columns.md)
+* [🔥 Email Alerts](features/email-alerts.md)
 
 ## Platform
 

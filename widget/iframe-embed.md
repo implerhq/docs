@@ -267,6 +267,16 @@ window.impler.show({
 });
 ```
 
+## Programmatically Closing the Import Widget
+
+You can close the import widget programmatically by calling `close` method on impler instance,
+
+Here is how,
+
+```javascript
+window.impler.close();
+```
+
 ## Changing Theme Color
 
 You can pass a primary color to the import widget, which will update the colors of all buttons accordingly to match your app's theme color.

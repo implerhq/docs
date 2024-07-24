@@ -157,6 +157,22 @@ const { showWidget, isImplerInitiated } = useImpler({
 
 The extra parameters get sent to an application during the webhook call.
 
+## Programmatically Closing Import Widget
+
+Impler's import widget provides `closeWidget` a method that closes the import widget. Useful to close the import widget once data is imported.
+
+```jsx
+const { showWidget, closeWidget, isImplerInitiated } = useImpler({
+    projectId: "",
+    templateId: "",
+    accessToken: "",
+    onDataImported: (data) => {
+        console.log("Imported data:", data);
+        closeWidget();
+    }
+});
+```
+
 ## Changing Import Title
 
 By default, the Import widget takes the name of the Import to show in the title. But it's possible to change the `title` from the implementation side too. Helpful to keep the title separate from what the name is given in the web portal.
