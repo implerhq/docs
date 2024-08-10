@@ -19,7 +19,7 @@
 ## Features
 
 * [🗃️ Data Seeding](features/data-seeding.md)
-* [📸 Import with Image](features/import-with-image.md)
+* [📸 Import Excel with Image](features/import-excel-with-image.md)
 * [🛸 Runtime Schema](features/runtime-schema.md)
 * [🦄 Custom Validation](features/custom-validation.md)
 * [🎨 Default Value](features/default-value.md)
