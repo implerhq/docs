@@ -4,9 +4,6 @@
 
 * [☺️ Introduction](README.md)
 * [🧿 How to use it? In 5 steps](overview/how-to-use-it.md)
-* [🏗️ Architecture](overview/architecture.md)
-* [🐋 Deploy using Docker](overview/deploy-using-docker.md)
-* [👥 FAQs](overview/faqs.md)
 
 ## Widget
 
@@ -22,27 +19,30 @@
 ## Features
 
 * [🗃️ Data Seeding](features/data-seeding.md)
-* [🤠 Output Customization](features/output-customization.md)
-* [🦄 Custom Validation](features/custom-validation.md)
 * [🛸 Runtime Schema](features/runtime-schema.md)
-* [🤶 Manage Project](features/manage-project.md)
+* [🦄 Custom Validation](features/custom-validation.md)
 * [🎨 Default Value](features/default-value.md)
-* [✨ Multiselect Dropdown](features/multiselect-dropdown.md)
 * [🧊 Freeze Columns](features/freeze-columns.md)
-* [🔥 Email Alerts](features/email-alerts.md)
+* [✨ Multiselect Dropdown](features/multiselect-dropdown.md)
+* [🤠 Output Customization](features/output-customization.md)
 
 ## Platform
 
 * [🔰 Validators](platform/validators.md)
+* [🔥 Email Alerts](platform/email-alerts.md)
 * [📽️ Activity Page](platform/activity-page.md)
+* [🤶 Manage Project](platform/manage-project.md)
 * [🏁 How subscription works?](platform/how-subscription-works.md)
 
 ## Additional Resources
 
+* [👥 FAQs](additional-resources/faqs.md)
+* [🏗️ Architecture](additional-resources/architecture.md)
 * [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [🔄 Data Migrations](additional-resources/data-migrations.md)
+* [📠 Selfhost Impler](https://github.com/implerhq/impler.io/blob/next/docker/Readme.md)
 * [✍️ Writing effectively into .xlsm files](additional-resources/writing-effectively-into-.xlsm-files.md)
 
 ***
 
-* [Changelog](https://changelog.impler.io)
+* [💱 Changelog](https://changelog.impler.io)
