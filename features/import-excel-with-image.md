@@ -25,7 +25,7 @@ Once the import is configured to import data with Image. We can start importing 
 
 The first step is to upload all images and generate a template with uploaded image names. All columns with the type Image will appear in `Select Column` dropdown and Uploaded images will be shown below `Upload Image` section.
 
-Once all image files are selected, click on `Generate Template` to generate excel file holding names of all uploaded images.
+Once all image files are selected, click on `Generate Template` to generate an Excel file holding the names of all uploaded images.
 
 <figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Upload Images and Generate Template</p></figcaption></figure>
 
@@ -33,7 +33,7 @@ Once all image files are selected, click on `Generate Template` to generate exce
 
 Clicking on Generate Template will download an Excel file and Importer will move to the Upload section. You can enter data in the downloaded Excel file and select image names for image columns.
 
-It's possible to generate template again by clicking on `Generate Template`.
+It's possible to generate a template again by clicking on `Generate Template`.
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Upload data file with image cell values</p></figcaption></figure>
 
@@ -67,10 +67,12 @@ Imported data will be sent to a webhook with an endpoint to download and access 
 
 The download file endpoint is secured using `accesskey` which is available in `Settings` section on the left side. Here is the CURL for a review,
 
+{% code overflow="wrap" %}
 ```
 curl --location --request GET 'https://api.impler.io/v1/upload/66b759d087a854c817cd3e98/asset/logo-icon.png' \
 --header 'accesskey: <ACCESS_TOKEN>'
 ```
+{% endcode %}
 
 ***
 
