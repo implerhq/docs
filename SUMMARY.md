@@ -24,6 +24,7 @@
 * [🛸 Runtime Schema](features/runtime-schema.md)
 * [🦄 Custom Validation](features/custom-validation.md)
 * [🎨 Default Value](features/default-value.md)
+* [ℹ️ Column Description](features/column-description.md)
 * [🧊 Freeze Columns](features/freeze-columns.md)
 * [✨ Multiselect Dropdown](features/multiselect-dropdown.md)
 * [🤠 Output Customization](features/output-customization.md)
