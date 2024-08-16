@@ -244,7 +244,7 @@ window.impler.show({
   accessToken: "",
   extra: JSON.stringify({
       userId: '4ddhodw3',
-      time: new Date().this string()
+      time: new Date()
   })
 });
 ```
