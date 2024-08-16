@@ -1,19 +1,19 @@
 ---
+icon: square-sliders
 description: >-
   Customize Import Widget to match tone of your application. Use this feature to
   update text or localize the Import Widget
-icon: square-sliders
 ---
 
 # Text Customization
 
-Text customization is possible from the application using [react-embed.md](react-embed.md "mention")and [iframe-embed.md](iframe-embed.md "mention"). With this powerful feature, you can update every text on the Import widget. This feature is useful for updating some content on import widgets or even implementing localization.
+Text customization is possible from the application using [#customize-texts](react-embed.md#customize-texts "mention") and [#customize-texts](iframe-embed.md#customize-texts "mention"). With this powerful feature, you can update every text on the Import widget. Useful for updating text on import widgets or even implementing localization.
 
 ### Available Texts
 
 Although you may not need to update every text on the import widget. Here is the complete text object which is used in Impler.
 
-Texts contain variables, Like `{total}` which is used to put dynamic value. Like `12K` in the case of import confirmation.
+Texts contain variables, Like `{total}` which is used to put dynamic value. For example, `12K` in the case of import confirmation.
 
 ```typescript
 {
