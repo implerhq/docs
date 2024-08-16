@@ -10,6 +10,7 @@
 * [🌐 React Embed](widget/react-embed.md)
 * [🫧 Bubble.io Embed](widget/bubble.io-embed.md)
 * [🪄 HTML & JS Embed](widget/iframe-embed.md)
+* [Text Customization](widget/text-customization.md)
 
 ## Data Retrieval
 
