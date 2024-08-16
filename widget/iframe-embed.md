@@ -225,14 +225,14 @@ window.impler.show({
   projectId: "",
   templateId: "",
   accessToken: "",
-  schema: JSON.stringify([
+  schema: [
     {
       key: 'country',
       name: 'Country',
       type: 'String'
     }
-  ]),
-  output: JSON.stringify({
+  ],
+  output: {
       "%data%": {
         "country_id": "{{country}}"
       },
@@ -243,7 +243,7 @@ window.impler.show({
       "uploadId": "{{uploadId}}",
       "fileName": "{{fileName}}",
       "extra": "{{extra}}"
-    })
+    }
 });
 ```
 
@@ -259,10 +259,10 @@ window.impler.show({
   projectId: "",
   templateId: "",
   accessToken: "",
-  extra: JSON.stringify({
+  extra: {
       userId: '4ddhodw3',
       time: new Date()
-  })
+  }
 });
 ```
 
