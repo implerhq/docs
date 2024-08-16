@@ -99,7 +99,7 @@ window.impler.on('message', (eventData) => {}, uuid);
 
 ## Complete Code Example
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
