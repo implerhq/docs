@@ -1,10 +1,11 @@
 ---
 description: >-
-  Impler provides the @impler/react package to add an import widget in your
-  application
+  Using @impler/react package you can embed CSV Excel Importer into your
+  application with just few lines of code.
+icon: react
 ---
 
-# 🌐 React Embed
+# React Embed
 
 Let's do a quick review of how to use `@impler/react` in your application.
 

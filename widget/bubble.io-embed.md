@@ -2,9 +2,10 @@
 description: >-
   Add readymade, scalable, and powerful CSV Excel import experience in your
   Bubble.io application.
+icon: b
 ---
 
-# 🫧 Bubble.io Embed
+# Bubble.io Embed
 
 ## 1. Setting Bubble App
 

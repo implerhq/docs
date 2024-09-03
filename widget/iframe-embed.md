@@ -2,9 +2,10 @@
 description: >-
   If you are using a (currently) unsupported client framework, you can use our
   embedded script. This will show the Widget inside an iframe.
+icon: js
 ---
 
-# 🪄 HTML & JS Embed
+# HTML & JS Embed
 
 ### Add Script
 
