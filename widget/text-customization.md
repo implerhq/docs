@@ -15,7 +15,7 @@ Although you may not need to update every text on the import widget. Here is the
 
 Texts contain variables, Like `{total}` which is used to put dynamic value. For example, `12K` in the case of import confirmation.
 
-```json
+```json5
 {
   COMMON: {
     SORRY: 'Sorry!',
