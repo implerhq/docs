@@ -78,7 +78,7 @@ There are chances that the system which is receiving data is not made or managed
 
 If you're providing schema runtime from the application, in that case, default provided output isn't taken into consideration. Because columns defined in the output might not match with columns getting imported.
 
-In that case, we need to provide schema runtime. We have listed examples for react in [#providing-runtime-schema](../widget/react-embed.md#providing-runtime-schema "mention") and for HTML & JS versions in [#providing-runtime-schema](../widget/iframe-embed.md#providing-runtime-schema "mention").
+In that case, we need to provide schema runtime. We have listed examples for react in [#providing-runtime-schema](../importer/react-embed.md#providing-runtime-schema "mention") and for HTML & JS versions in [#providing-runtime-schema](../importer/html-js-embed.md#providing-runtime-schema "mention").
 
 This output customization capability empowers you to direct imported data to any destination and in any preferred format.
 

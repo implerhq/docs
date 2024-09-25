@@ -17,7 +17,7 @@ Consider you have an ERP application that needs to import sales information. Our
 
 In that case, fixing the import data structure is impossible. So we need to pass schema during run time when the user clicks on `Import` button to import the data.
 
-You can find relevant implementation for react in [#providing-runtime-schema](../widget/react-embed.md#providing-runtime-schema "mention")and for HTML & HS in [#providing-runtime-schema](../widget/iframe-embed.md#providing-runtime-schema "mention")
+You can find relevant implementation for react in [#providing-runtime-schema](../importer/react-embed.md#providing-runtime-schema "mention")and for HTML & HS in [#providing-runtime-schema](../importer/html-js-embed.md#providing-runtime-schema "mention")
 
 ## Example Schema
 

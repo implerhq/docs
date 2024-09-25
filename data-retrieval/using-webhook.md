@@ -24,7 +24,7 @@ You can provide `Chunk Size` too, which defines how many records Impler will sen
 
 Impler will call your API endpoint from the server, so it will not be visible to anyone. For additional security, you can provide `Auth Header Name` which will be the key of headers sent, while the value will be taken from the application when import starts.
 
-Details to provide `Auth Header Value` is available at [#providing-authentication-header-value](../widget/react-embed.md#providing-authentication-header-value "mention") for react and at [#providing-authentication-header-value](../widget/iframe-embed.md#providing-authentication-header-value "mention") for HTML & JS Embed.
+Details to provide `Auth Header Value` is available at [#providing-authentication-header-value](../importer/react-embed.md#providing-authentication-header-value "mention") for react and at [#providing-authentication-header-value](../importer/html-js-embed.md#providing-authentication-header-value "mention") for HTML & JS Embed.
 
 ## Webhook Data Format
 

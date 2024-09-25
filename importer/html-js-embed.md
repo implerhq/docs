@@ -1,8 +1,8 @@
 ---
+icon: js
 description: >-
   If you are using a (currently) unsupported client framework, you can use our
   embedded script. This will show the Widget inside an iframe.
-icon: js
 ---
 
 # HTML & JS Embed
@@ -210,6 +210,43 @@ window.impler.show({
     { country: 'ABC' },
     { country: 'DEF' },
     { country: 'GHE' },
+  ]
+});
+```
+
+### Advanced Validations
+
+You can provide [#advanced-validations](html-js-embed.md#advanced-validations "mention") in the column as `validations` key,
+
+```javascript
+window.impler.show({
+  uuid,
+  projectId: "",
+  templateId: "",
+  accessToken: "",
+  schema: [
+    {
+      "key": "Department Code",
+      "name": "Department Code",
+      "type": "String",
+      "validations": [
+        {
+          "validate": "unique_with",
+          "uniqueKey": "Employee No"
+        }
+      ]
+    },
+    {
+      "key": "Employee Id",
+      "name": "Employee Id",
+      "type": "Number",
+      "validations": [
+        {
+          "validate": "unique_with",
+          "uniqueKey": "Employee No"
+        }
+      ]
+    }
   ]
 });
 ```

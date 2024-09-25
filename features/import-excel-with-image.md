@@ -8,7 +8,7 @@ description: >-
 # 📸 Import Excel with Image
 
 {% hint style="info" %}
-Excel with the Image Import feature is available in the Scale plan only! Feel free to [reach out](https://discord.impler.io) in case you want to try it out!
+Excel with the Image Import feature is available in the **Scale** plan only. Feel free to contact us if you want to try it out!
 {% endhint %}
 
 ### How do I enable Image upload in Import?

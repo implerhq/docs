@@ -1,8 +1,8 @@
 ---
+icon: react
 description: >-
   Using @impler/react package you can embed CSV Excel Importer into your
   application with just few lines of code.
-icon: react
 ---
 
 # React Embed
@@ -159,12 +159,45 @@ showWidget({
 });
 ```
 
-#### Using Typescript
+### Advanced Validations <a href="#advanced-validations" id="advanced-validations"></a>
+
+You can provide [#advanced-validations](react-embed.md#advanced-validations "mention") in the column as `validations` key,
+
+```typescript
+showWidget({
+  schema: [
+    {
+      "key": "Department Code",
+      "name": "Department Code",
+      "type": "String",
+      "validations": [
+        {
+          "validate": "unique_with",
+          "uniqueKey": "Employee No"
+        }
+      ]
+    },
+    {
+      "key": "Employee Id",
+      "name": "Employee Id",
+      "type": "Number",
+      "validations": [
+        {
+          "validate": "unique_with",
+          "uniqueKey": "Employee No"
+        }
+      ]
+    }
+  ]
+});
+```
+
+### Using Typescript
 
 If you're using typescript, you can leverage typescript types, like,
 
 ```typescript
-import { useImpler, ColumnTypesEnum } from '@impler/react';
+import { useImpler, ColumnTypes, ValidationTypes } from '@impler/react';
 
 const { showWidget } = useImpler({ ... })
 
@@ -173,7 +206,15 @@ showWidget({
       {
         key: 'country',
         name: 'Country',
-        type: ColumnTypesEnum.STRING
+        type: ColumnTypes.STRING,
+        "validations": [
+          {
+            "validate": ValidationTypes.LENGTH,
+            "min": 5,
+            "max": 100,
+            "errorMessage": "Country Name must be between 5 to 100 characters"
+          }
+        ]
       }
   ]
 });

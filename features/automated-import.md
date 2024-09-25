@@ -1,9 +1,9 @@
 ---
+icon: robot-astromech
 description: >-
   Impler allows facility to automate data import from remote locations. Data
   import from remote locations makes it easy when data needs to be imported
   automatically without human intervention.
-icon: robot-astromech
 ---
 
 # Automated Import
@@ -50,7 +50,7 @@ At the end, impler confirms the automated import configuration. Which shows the 
 
 #### Automated Imports are associated with users
 
-Automated imports are associated with users. Users referred to here are users of end application who uses Impler. To mention userId we have to provide `externalUserId` extra parameters. As mentioned in [#passing-extra-parameters](../widget/react-embed.md#passing-extra-parameters "mention") (React) and [#passing-extra-parameters](../widget/iframe-embed.md#passing-extra-parameters "mention") (HTML & JS).
+Automated imports are associated with users. Users referred to here are users of end application who uses Impler. To mention userId we have to provide `externalUserId` extra parameters. As mentioned in [#passing-extra-parameters](../importer/react-embed.md#passing-extra-parameters "mention") (React) and [#passing-extra-parameters](../importer/html-js-embed.md#passing-extra-parameters "mention") (HTML & JS).
 
 You can provide anything in `externalUserId`. ID or Email address that uniquely identifies the user is best suitable for value in `externalUserId`.
 

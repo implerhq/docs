@@ -4,7 +4,7 @@ description: >-
   Impler works?
 ---
 
-# 🏗 Architecture
+# 🏗️ Architecture
 
 Impler is built upon scalable architecture to validate and process records of any size.
 
@@ -32,4 +32,4 @@ API keys are used to authenticate APIs happening from import widget. Additionall
 
 ### SDKs
 
-SDKs removes the need of managing import widget manually. In case of missing SDK developer can take reference of [iframe-embed.md](../widget/iframe-embed.md "mention")to embed widget into application.
+SDKs removes the need of managing import widget manually. In case of missing SDK developer can take reference of [html-js-embed.md](../importer/html-js-embed.md "mention")to embed widget into application.

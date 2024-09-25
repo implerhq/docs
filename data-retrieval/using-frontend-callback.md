@@ -23,6 +23,6 @@ Once the user completes importing the spreadsheet in the widget, you access impo
 
 Once the destination is enabled Impler will start sending Imported data on the frontend.
 
-To access we can use `onDataImported` method at [#listening-for-events](../widget/react-embed.md#listening-for-events "mention") if using react or can check for a`DATA_IMPORTED` event as per [#listening-to-events](../widget/iframe-embed.md#listening-to-events "mention") if using HTML & JavaScript.
+To access we can use `onDataImported` method at [#listening-for-events](../importer/react-embed.md#listening-for-events "mention") if using react or can check for a`DATA_IMPORTED` event as per [#listening-to-events](../importer/html-js-embed.md#listening-to-events "mention") if using HTML & JavaScript.
 
 Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).

@@ -1,8 +1,8 @@
 ---
+icon: angular
 description: >-
   Using @impler/angular package you can embed CSV Excel Importer into your
   application with just few lines of code.
-icon: angular
 ---
 
 # Angular Embed
@@ -189,12 +189,47 @@ public show(): void {
 }
 ```
 
-#### Using Typescript
+### Advanced Validations <a href="#advanced-validations" id="advanced-validations"></a>
+
+You can provide [#advanced-validations](angular-embed.md#advanced-validations "mention") in the column as `validations` key,
+
+```typescript
+public show(): void {
+  this.implerService.showWidget({
+    schema: [
+      {
+        "key": "Department Code",
+        "name": "Department Code",
+        "type": "String",
+        "validations": [
+          {
+            "validate": "unique_with",
+            "uniqueKey": "Employee No"
+          }
+        ]
+      },
+      {
+        "key": "Employee Id",
+        "name": "Employee Id",
+        "type": "Number",
+        "validations": [
+          {
+            "validate": "unique_with",
+            "uniqueKey": "Employee No"
+          }
+        ]
+      }
+    ]
+  });
+}
+```
+
+### Using Typescript
 
 If you're using typescript, you can leverage typescript types, like,
 
 ```typescript
-import { useImpler, ColumnTypesEnum } from '@impler/angular';
+import { useImpler, ColumnTypes, ValidationTypes } from '@impler/angular';
 
 public show(): void {
   this.implerService.showWidget({
@@ -202,7 +237,15 @@ public show(): void {
         {
           key: 'country',
           name: 'Country',
-          type: ColumnTypesEnum.STRING
+          type: ColumnTypes.STRING,
+          "validations": [
+            {
+              "validate": ValidationTypes.LENGTH,
+              "min": 5,
+              "max": 100,
+              "errorMessage": "Country Name must be between 5 to 100 characters"
+            }
+          ]
         }
     ]
   });
@@ -217,12 +260,12 @@ You can pass `string`, `object`, or `array` in extra. Here is an example of how 
 
 ```typescript
 public show(): void {
-      this.implerService.showWidget({
-            extra: {
-                  userId: '4ddhodw3',
-                  time: new Date().this string()
-            }
-      });
+  this.implerService.showWidget({
+    extra: {
+      userId: '4ddhodw3',
+      time: new Date().this string()
+    }
+  });
 }
 ```
 
@@ -234,7 +277,7 @@ Impler's import widget provides `closeWidget` a method that closes the import wi
 
 ```typescript
 public close(): void {
-      this.implerService.closeWidget();
+    this.implerService.closeWidget();
 }
 ```
 

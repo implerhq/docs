@@ -5,18 +5,23 @@
 * [☺️ Introduction](README.md)
 * [🧿 How to use it? In 5 steps](overview/how-to-use-it.md)
 
-## Widget
+## Importer
 
-* [React Embed](widget/react-embed.md)
-* [Angular Embed](widget/angular-embed.md)
-* [Bubble.io Embed](widget/bubble.io-embed.md)
-* [HTML & JS Embed](widget/iframe-embed.md)
-* [Text Customization](widget/text-customization.md)
+* [React Embed](importer/react-embed.md)
+* [Angular Embed](importer/angular-embed.md)
+* [Bubble.io Embed](importer/bubble.io-embed.md)
+* [HTML & JS Embed](importer/html-js-embed.md)
+* [Text Customization](importer/text-customization.md)
 
 ## Data Retrieval
 
 * [🪝 Using Webhook](data-retrieval/using-webhook.md)
 * [💠 Using Frontend Callback](data-retrieval/using-frontend-callback.md)
+
+## Validations
+
+* [🔰 Base Validations](validations/bases.md)
+* [Advanced Validations](validations/advanced.md)
 
 ## Features
 
@@ -33,7 +38,6 @@
 
 ## Platform
 
-* [🔰 Validators](platform/validators.md)
 * [🔥 Email Alerts](platform/email-alerts.md)
 * [📽️ Activity Page](platform/activity-page.md)
 * [🤶 Manage Project](platform/manage-project.md)
@@ -43,9 +47,9 @@
 
 * [👥 FAQs](additional-resources/faqs.md)
 * [🏗️ Architecture](additional-resources/architecture.md)
-* [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [🔄 Data Migrations](additional-resources/data-migrations.md)
 * [📠 Selfhost Impler](https://github.com/implerhq/impler.io/blob/next/docker/Readme.md)
+* [💎 Run Impler locally](additional-resources/run-impler-locally.md)
 * [✍️ Writing effectively into .xlsm files](additional-resources/writing-effectively-into-.xlsm-files.md)
 
 ***

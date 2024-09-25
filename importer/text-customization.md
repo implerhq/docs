@@ -7,7 +7,7 @@ description: >-
 
 # Text Customization
 
-Text customization is possible from the application using [#customize-texts](react-embed.md#customize-texts "mention") (React) and [#customize-texts](iframe-embed.md#customize-texts "mention") (HTML & JS). With this powerful feature, you can update every text on the Import widget. Useful for updating text on import widgets or even implementing localization.
+Text customization is possible from the application using [#customize-texts](react-embed.md#customize-texts "mention") (React) and [#customize-texts](html-js-embed.md#customize-texts "mention") (HTML & JS). With this powerful feature, you can update every text on the Import widget. Useful for updating text on import widgets or even implementing localization.
 
 ### Available Texts
 
