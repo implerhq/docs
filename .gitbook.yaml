@@ -1,0 +1,9 @@
+root: ./
+
+redirects:
+  platform/validators: validations/base.md
+  widget/react-embed: importer/react-embed.md
+  widget/angular-embed: importer/angular-embed.md
+  widget/bubble.io-embed: importer/bubble.io-embed.md
+  widget/iframe-embed: importer/html-js-embed.md
+  widget/text-customization: importer/text-customization.md
