@@ -87,7 +87,7 @@ public show(): void {
 }
 ```
 
-### Available Events to Listen for
+### Listening for Events
 
 <table><thead><tr><th>Event Name</th><th width="145">Data Type</th><th>Description</th></tr></thead><tbody><tr><td>UPLOAD_STARTED</td><td>Upload Partial Information</td><td>An event that gets triggered when a user starts the upload.</td></tr><tr><td>UPLOAD_TERMINATED</td><td>Upload Partial Information</td><td>An event that gets triggered when a user leaves import in the middle.</td></tr><tr><td>UPLOAD_COMPLETED</td><td>Upload Information</td><td>An event that gets triggered when a user completes the import.</td></tr><tr><td>CLOSE_WIDGET</td><td>-</td><td>An event that gets triggered when the widget is closed by the user.</td></tr><tr><td>DATA_IMPORTED</td><td>Imported Data</td><td>An event that gets triggered with all imported data. Read more at <a data-mention href="../data-retrieval/using-frontend-callback.md">using-frontend-callback.md</a></td></tr><tr><td>WIDGET_READY</td><td>-</td><td>An event that gets triggered when the import widget is opened.</td></tr></tbody></table>
 
