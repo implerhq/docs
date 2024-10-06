@@ -8,3 +8,4 @@ redirects:
   widget/bubble.io-embed: importer/bubble.io-embed.md
   widget/iframe-embed: importer/html-js-embed.md
   widget/text-customization: importer/text-customization.md
+  data-retrieval/in-bubble.io: importer/bubble.io-embed.md
