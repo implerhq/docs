@@ -1,8 +1,8 @@
 ---
+icon: b
 description: >-
   Add readymade, scalable, and powerful CSV Excel import experience in your
   Bubble.io application.
-icon: b
 ---
 
 # Bubble.io Embed
@@ -17,13 +17,13 @@ icon: b
 
 Prepare a data type in your Bubble app where you want to push the CSV data. Ensure that the data type is `Publicly visible`. Add custom fields to the data type as per your requirements.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important:** Manually add at least one entry to the data type to map columns accurately.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Making sure that at least one entry is exist in datatype</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Making sure that at least one entry is exist in datatype</p></figcaption></figure>
 
 ### **ii. API Settings**
 
@@ -33,7 +33,7 @@ Prepare a data type in your Bubble app where you want to push the CSV data. Ensu
 4. Activate API for the data type where you want to push the imported data
 5. Generate the API **Private Key** and save it.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>API Settings for Importing Data</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>API Settings for Importing Data</p></figcaption></figure>
 
 ## 2. Setting up the Impler Application
 
@@ -41,15 +41,15 @@ Visit [web.impler.io](https://web.impler.io) and log in.
 
 ### i. Click on the "Create Import" to create the new import
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Click on "Create Import" button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Click on "Create Import" button</p></figcaption></figure>
 
 ### ii. Give name and click on "Create & Continue"
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Give appropriate name in create Import for</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Give appropriate name in create Import for</p></figcaption></figure>
 
 ### iii. Enable Bubble.io destination
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Bubble app configuration</p></figcaption></figure>
 
 Go to the destination tab and enable Bubble.io. Fill in the following information,
 
@@ -123,7 +123,7 @@ The impler import plugin provides a field for **User Id**, where one can provide
 
 If you're taking static or dynamic userId field, you have to append `"user": {{extra.userId}}` in output schema.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Adding userId in output format</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Adding userId in output format</p></figcaption></figure>
 
 Here **user** is the field name in Bubble.io. You need to follow the name you have in your Bubble.io application.
 

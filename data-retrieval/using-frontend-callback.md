@@ -2,9 +2,10 @@
 description: >-
   Get sanitized and formatted user-imported data Directly on your frontend
   application. Helping you to access data directly.
+icon: globe-pointer
 ---
 
-# 💠 Using Frontend Callback
+# Using Frontend Callback
 
 {% hint style="info" %}
 Available from @impler/react@0.21.0 SDK. Not advisable to access imported data on the front end, if importing more than 10K records.

@@ -2,6 +2,7 @@
 description: >-
   Utilize default validation options to build your desired data import
   experience.
+icon: list-check
 layout:
   title:
     visible: true
@@ -15,7 +16,7 @@ layout:
     visible: true
 ---
 
-# 🔰 Validators
+# Base Validations
 
 ## List of available validators:
 

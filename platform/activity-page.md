@@ -1,8 +1,9 @@
 ---
 description: Your hub for tracking and understanding your import activity.
+icon: chart-line-up-down
 ---
 
-# 📽️ Activity Page
+# Activity Page
 
 The Activity Page provides a comprehensive overview of your data imports, giving you insights into import statistics, trends, and detailed histories.
 

@@ -1,8 +1,9 @@
 ---
 description: Find answers to most common questions our users have while using Impler
+icon: comments-question-check
 ---
 
-# 👥 FAQs
+# FAQs
 
 <details>
 
@@ -11,7 +12,7 @@ description: Find answers to most common questions our users have while using Im
 1. Open the Import description and go to the Snippet portion of the Import.
 2. Open the last item of the accordion, where you will find the necessary keys.
 
-<img src="../.gitbook/assets/image (5) (1).png" alt="Steps to get ProjectId, TemplateId and AccessToken for the Import" data-size="original">
+<img src="../.gitbook/assets/image (5) (1) (1).png" alt="Steps to get ProjectId, TemplateId and AccessToken for the Import" data-size="original">
 
 </details>
 

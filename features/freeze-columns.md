@@ -2,9 +2,10 @@
 description: >-
   Freeze columns in excel and editor to better view data while editing and
   adding records
+icon: sidebar
 ---
 
-# 🧊 Freeze Columns
+# Freeze Columns
 
 ## Three ways to freeze columns
 

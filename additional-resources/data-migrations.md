@@ -1,8 +1,9 @@
 ---
 description: Learn how to update your database data through migrations.
+icon: route
 ---
 
-# 🔄 Data Migrations
+# Data Migrations
 
 Occasionally, Impler might add features that call for alterations to the data or database schema. This typically occurs when a feature requires certain data to be present on a database entity to function. To make these modifications to your database, you can utilize migrations.
 

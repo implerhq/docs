@@ -2,9 +2,10 @@
 description: >-
   Write your own validation code, making it possible to perform complex checks,
   such as validating data against external databases or APIs.
+icon: rectangle-terminal
 ---
 
-# 🦄 Custom Validation
+# Custom Validation
 
 {% hint style="info" %}
 Available after impler version `0.9.1`&#x20;

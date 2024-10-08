@@ -3,9 +3,10 @@ description: >-
   Get idea about how subscription works in impler. How pricing will be
   calculated, payment gateway being used internally and how it will affect
   usage.
+icon: subscript
 ---
 
-# 🏁 How subscription works?
+# How subscription works?
 
 Impler provides the most generous way to integrate world-class CSV Excel Import functionality in any application. Impler only considers Imported Records as a metric to collect the amount and not additional parameters like no. of imports and no. of templates.
 

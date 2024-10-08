@@ -2,9 +2,10 @@
 description: >-
   Guide on various building blocks of Impler, How they communicate and How
   Impler works?
+icon: sitemap
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 Impler is built upon scalable architecture to validate and process records of any size.
 

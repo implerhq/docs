@@ -3,9 +3,10 @@ description: >-
   Do you need to import data in columns that are not fixed firsthand? Impler
   provides a facility to provide schema at the moment of opening the import
   widget.
+icon: eye-slash
 ---
 
-# 🛸 Runtime Schema
+# Runtime Schema
 
 {% hint style="info" %}
 Available after the impler version `0.9.1`&#x20;

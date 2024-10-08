@@ -1,8 +1,9 @@
 ---
 description: Get data right into the application whenever the user imports the file
+icon: webhook
 ---
 
-# 🪝 Using Webhook
+# Using Webhook
 
 Once the user completes importing the spreadsheet in the widget, the impler sends imported data to the callback URL mentioned in the **destination**.
 

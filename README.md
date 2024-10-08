@@ -3,9 +3,10 @@ description: >-
   Impler is open-source data import infrastructure, built for engineering teams
   to help them build rich data import experience without constantly reinventing
   the wheel.
+icon: wreath
 ---
 
-# ☺️ Introduction
+# Introduction
 
 ## Why?
 

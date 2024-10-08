@@ -1,8 +1,9 @@
 ---
 description: Group your Imports into projects to make managing multiple imports easy
+icon: people-roof
 ---
 
-# 🤶 Manage Project
+# Manage Project
 
 The projects feature empowers developers to efficiently organize and categorize their imports, enhancing overall workflow management.
 

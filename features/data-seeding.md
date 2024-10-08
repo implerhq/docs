@@ -3,9 +3,10 @@ description: >-
   Populate essential data fields in your Excel samples with Data Seeding.
   Simplify data input by preloading records, allowing users to build upon or
   modify data.
+icon: table-cells
 ---
 
-# 🗃️ Data Seeding
+# Data Seeding
 
 {% hint style="info" %}
 Available after impler version `0.9.1`&#x20;

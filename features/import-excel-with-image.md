@@ -3,9 +3,10 @@ description: >-
   Impler allows importing data files with images. Image import is useful in
   scenarios like Employee data with profile photos, Products with images, or
   Assets with pictures.
+icon: images
 ---
 
-# 📸 Import Excel with Image
+# Import Excel with Image
 
 {% hint style="info" %}
 Excel with the Image Import feature is available in the **Scale** plan only. Feel free to contact us if you want to try it out!

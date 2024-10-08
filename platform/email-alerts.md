@@ -2,9 +2,10 @@
 description: >-
   Impler will send you alert mail for anything that goes wrong during importing
   data
+icon: paper-plane
 ---
 
-# 🔥 Email Alerts
+# Email Alerts
 
 We heard issues like "I imported data but didn't receive callback", "Imported data is not showing in my application", "Validation code is not working as expected", etc. Also, "imported data not seen in the application", is something no one wants to face.
 

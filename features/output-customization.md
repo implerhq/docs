@@ -1,8 +1,9 @@
 ---
 description: Customize output format to receive data in a manner that the system can use.
+icon: tree-christmas
 ---
 
-# 🤠 Output Customization
+# Output Customization
 
 There are chances that the system which is receiving data is not made or managed by us. But as a plugin or integration, we need to send imported data to that system. In that case, Impler allows changing the output format which follows the system's syntax.
 

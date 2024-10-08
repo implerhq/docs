@@ -2,9 +2,10 @@
 description: >-
   Add description to your columns to help users understand what value to put
   into column.
+icon: message-lines
 ---
 
-# ℹ️ Column Description
+# Column Description
 
 Users filling excel sheet often get's confused with "What value will go into this column?", "In which format I need to add phone number?", "What format to follow for date?", etc. We can answer these user questions with Column Descriptions.
 

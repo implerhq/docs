@@ -1,8 +1,9 @@
 ---
 description: What do you need to run Impler locally and how to perform the setup?
+icon: computer
 ---
 
-# 💎 Run Impler locally
+# Run Impler locally
 
 ## Requirements
 

@@ -3,9 +3,10 @@ description: >-
   Default value facility empowers developers to specify fallback values for
   empty or missing columns. This ensures data consistency and completeness while
   receiving the data.
+icon: swap
 ---
 
-# 🎨 Default Value
+# Default Value
 
 Till the date, if imported spreadsheet contains missing value or any column is not mapped, the response uses `{{key}}` as placeholder. By utilizing Default Value functionality developer has more control over format of response they will receive.
 
