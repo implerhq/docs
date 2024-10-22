@@ -1,8 +1,8 @@
 ---
+icon: pen-circle
 description: >-
   No need to download Excel, do mapping, review, and complete import. Directly
   write data into the importer and finish your import in just one step.
-icon: pen-circle
 ---
 
 # Directly Enter your Data
@@ -35,6 +35,4 @@ This process takes a lot of time and involves many steps in the data import proc
 * The user can not Finish Import if the data contains invalid values.
 * On finish the data will be sent to frontend ([using-frontend-callback.md](../data-retrieval/using-frontend-callback.md "mention")), Webhook ([using-webhook.md](../data-retrieval/using-webhook.md "mention")), or Bubble ([bubble.io-embed.md](bubble.io-embed.md "mention")) as per the destination.
 
-{% synced-block url="https://app.gitbook.com/o/yCmyE3hFyolSGBXaxT9T/blocks/syb_1dWvX" %}
-[Your feedback is crucial in...](https://app.gitbook.com/o/yCmyE3hFyolSGBXaxT9T/blocks/syb\_1dWvX)
-{% endsynced-block %}
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

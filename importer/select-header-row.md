@@ -1,9 +1,9 @@
 ---
+icon: table
 description: >-
   Need to import a file that doesn't have a header or data starting after a few
   rows? Choose to import the file with headers or select the header row from
   where the data is starting.
-icon: table
 ---
 
 # Select Header Row
@@ -24,6 +24,4 @@ icon: table
     <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Map columns based on selected header</p></figcaption></figure>
 * In the case of importing files without headers, the first row will be shown in the Mapping Step.
 
-{% synced-block url="https://app.gitbook.com/o/yCmyE3hFyolSGBXaxT9T/blocks/syb_1dWvX" %}
-[Your feedback is crucial in...](https://app.gitbook.com/o/yCmyE3hFyolSGBXaxT9T/blocks/syb\_1dWvX)
-{% endsynced-block %}
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}
