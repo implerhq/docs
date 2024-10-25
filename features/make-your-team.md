@@ -5,7 +5,7 @@ description: >-
 icon: people-group
 ---
 
-# Invite Your Team
+# Make your team
 
 With inspiration from `Birds of a feather flock together`, you can invite your peers in Impler with different background, who are responsible for different work. Here are the details about which role has which capabilities in Impler.
 
