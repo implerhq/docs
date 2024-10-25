@@ -1,9 +1,9 @@
 ---
+icon: table-cells
 description: >-
   Populate essential data fields in your Excel samples with Data Seeding.
   Simplify data input by preloading records, allowing users to build upon or
   modify data.
-icon: table-cells
 ---
 
 # Data Seeding
@@ -56,4 +56,4 @@ With the Data Seeding feature in Impler, you can save time and effort by automat
 
 This is particularly valuable when importing data with complex relationships, ensuring a smooth and efficient data import experience.
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

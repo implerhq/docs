@@ -1,6 +1,6 @@
 ---
-description: Your hub for tracking and understanding your import activity.
 icon: chart-line-up-down
+description: Your hub for tracking and understanding your import activity.
 ---
 
 # Activity Page
@@ -49,4 +49,4 @@ Whether you're seeking a quick overview or a comprehensive analysis, the Activit
 
 Impler's Activity Page is designed to streamline your import tracking, optimize your workflow, and empower you with data-driven decision-making capabilities.
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

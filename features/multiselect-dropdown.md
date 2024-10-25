@@ -1,9 +1,9 @@
 ---
+icon: list-dropdown
 description: >-
   The Multiselect feature in Impler allows users to pick multiple values for a
   single cell. This feature is useful in various scenarios like selecting
   categories for products, tagging items, and more.
-icon: list-dropdown
 ---
 
 # Multiselect Dropdown
@@ -63,4 +63,4 @@ For detailed steps on how to write in `.xlsm` files refer to [writing-effectivel
 
 Columns with the Multiselect feature will send an array of selected values when sent to application [using-webhook.md](../data-retrieval/using-webhook.md "mention") or [using-frontend-callback.md](../data-retrieval/using-frontend-callback.md "mention").
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

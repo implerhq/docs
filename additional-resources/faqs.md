@@ -1,6 +1,6 @@
 ---
-description: Find answers to most common questions our users have while using Impler
 icon: comments-question-check
+description: Find answers to most common questions our users have while using Impler
 ---
 
 # FAQs
@@ -49,4 +49,4 @@ API will send a file with headers `Content-Type` and `Content-Disposition` as va
 
 </details>
 
-Still, have any doubts? Please shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

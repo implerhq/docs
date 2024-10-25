@@ -1,8 +1,8 @@
 ---
+icon: arrow-progress
 description: >-
   Leverage Impler capabilites to build rich, scalable and user friendly data
   import experience
-icon: arrow-progress
 ---
 
 # How to use it? In 5 steps
@@ -47,3 +47,5 @@ It's time to import your CSV or Excel file. We can do it in two ways:
 <figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Embed Import widget into your application</p></figcaption></figure>
 
 And that's it! With these five straightforward steps, you are well on your way to revolutionizing your data onboarding process and delivering an exceptional user experience.
+
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

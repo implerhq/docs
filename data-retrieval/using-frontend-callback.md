@@ -1,8 +1,8 @@
 ---
+icon: globe-pointer
 description: >-
   Get sanitized and formatted user-imported data Directly on your frontend
   application. Helping you to access data directly.
-icon: globe-pointer
 ---
 
 # Using Frontend Callback
@@ -26,4 +26,4 @@ Once the destination is enabled Impler will start sending Imported data on the f
 
 To access we can use `onDataImported` method at [#listening-for-events](../importer/react-embed.md#listening-for-events "mention") if using react or can check for a`DATA_IMPORTED` event as per [#listening-to-events](../importer/html-js-embed.md#listening-to-events "mention") if using HTML & JavaScript.
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

@@ -1,8 +1,8 @@
 ---
+icon: message-lines
 description: >-
   Add description to your columns to help users understand what value to put
   into column.
-icon: message-lines
 ---
 
 # Column Description
@@ -31,6 +31,4 @@ It's possible to change border of tooltip by providing primaryColor while openin
 
 <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>Showing column description to user</p></figcaption></figure>
 
-***
-
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

@@ -37,13 +37,13 @@
 * [Freeze Columns](features/freeze-columns.md)
 * [Multiselect Dropdown](features/multiselect-dropdown.md)
 * [Output Customization](features/output-customization.md)
-* [Make Your Team](features/make-your-team.md)
 
 ## Platform
 
 * [Email Alerts](platform/email-alerts.md)
 * [Activity Page](platform/activity-page.md)
 * [Manage Project](platform/manage-project.md)
+* [Make Your Team](platform/make-your-team.md)
 * [How subscription works?](platform/how-subscription-works.md)
 
 ## Additional Resources

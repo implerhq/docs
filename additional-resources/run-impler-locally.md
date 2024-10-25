@@ -1,6 +1,6 @@
 ---
-description: What do you need to run Impler locally and how to perform the setup?
 icon: computer
+description: What do you need to run Impler locally and how to perform the setup?
 ---
 
 # Run Impler locally
@@ -136,4 +136,4 @@ npm run test:api
 
 ## [Running Migrations](run-impler-locally.md#running-migrations)
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

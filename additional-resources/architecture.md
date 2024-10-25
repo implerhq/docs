@@ -1,8 +1,8 @@
 ---
+icon: sitemap
 description: >-
   Guide on various building blocks of Impler, How they communicate and How
   Impler works?
-icon: sitemap
 ---
 
 # Architecture
@@ -34,3 +34,5 @@ API keys are used to authenticate APIs happening from import widget. Additionall
 ### SDKs
 
 SDKs removes the need of managing import widget manually. In case of missing SDK developer can take reference of [html-js-embed.md](../importer/html-js-embed.md "mention")to embed widget into application.
+
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

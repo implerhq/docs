@@ -230,6 +230,4 @@ When doing manual import of data the most commonly used texts are mentioned belo
 }
 ```
 
-***
-
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io)!
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

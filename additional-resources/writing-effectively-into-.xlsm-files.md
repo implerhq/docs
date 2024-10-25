@@ -1,8 +1,8 @@
 ---
+icon: file-spreadsheet
 description: >-
   Step-by-step guide showing how you and your users can handle .xlsm file
   constraints, while editing into it.
-icon: file-spreadsheet
 ---
 
 # Writing effectively into .xlsm files
@@ -66,6 +66,6 @@ By following these steps, you can effectively use the Multiselect feature in `.x
 #### Linux:
 
 * Open the `.xlsm` file in LibreOffice Calc.
-* Manually type the options in multiselect fields.
+* Manually type the options in multi-select fields.
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

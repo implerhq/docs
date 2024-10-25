@@ -1,9 +1,9 @@
 ---
+icon: wreath
 description: >-
   Impler is open-source data import infrastructure, built for engineering teams
   to help them build rich data import experience without constantly reinventing
   the wheel.
-icon: wreath
 ---
 
 # Introduction
@@ -24,4 +24,4 @@ As developers, we tend to care about the performance of the application, but fol
 
 One of the reasons for making Impler open-source was to ensure privacy and give back to the community. We heard from many teams and we also felt `How hard it's to give support for Data import functionality`. So to make it accessible to everyone, we decided to build the Impler with awesome people like you.
 
-We welcome and appreciate everyone's suggestions and improvements, join us on [Discord](https://discord.impler.io) and [GitHub](https://github.com/knovator/impler.io).
+{% include ".gitbook/includes/your-feedback-is-crucial-in....md" %}

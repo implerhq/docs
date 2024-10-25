@@ -1,8 +1,8 @@
 ---
+icon: rectangle-terminal
 description: >-
   Write your own validation code, making it possible to perform complex checks,
   such as validating data against external databases or APIs.
-icon: rectangle-terminal
 ---
 
 # Custom Validation
@@ -136,4 +136,4 @@ With custom validation in Impler, you have the flexibility to implement intricat
 
 This feature empowers you to customize your imports to meet your specific needs, making complex data imports more accessible and efficient.
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

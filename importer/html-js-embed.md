@@ -360,4 +360,4 @@ window.impler.show({
 });
 ```
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

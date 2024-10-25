@@ -1,45 +1,34 @@
 ---
-description: Group your Imports into projects to make managing multiple imports easy
 icon: people-roof
+description: Group your Imports into projects to make managing multiple imports easy
 ---
 
 # Manage Project
 
-The projects feature empowers developers to efficiently organize and categorize their imports, enhancing overall workflow management.
+Projects in Impler play a vital role in organizing imports effectively. You can invite your peers to the team and collaborate on Imports.
 
-This guide will walk you through how to utilize this feature effectively to streamline your data import operations.
+## How Projects Work?
 
-## **Accessing the Projects Feature**
+### Open Projects Modal
 
-The projects feature is conveniently located in the top-left corner of the sidebar. It offers a dropdown menu that enables you to seamlessly switch between different projects.
+Click on your project name on the top left corner of the Impler platform below the Impler logo to open Projects Modal.
 
-### **Grouping Imports**
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption><p>Open Projects Modal</p></figcaption></figure>
 
-The primary purpose of projects is to allow developers to group their imports logically. By assigning related imports to a single project, you can maintain a more organized workspace, making it easier to manage your data import activities.
+### Create Project
 
-### Changing the Project
+You can create unlimited projects in Impler. To create a new project write the project name in text input and click on `Create`. Upon creating a project you will be switched to a new project automatically.
 
-To change the active project, follow these steps:
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption><p>Create new Project</p></figcaption></figure>
 
-1. Click on the project dropdown menu located in the top-left corner of the sidebar.
-2. A list of available projects will be displayed.
-3. Select the desired project from the list.
+### Switch Project
 
-### Creating a new Project
+Once the project is created it will be shown on the projects menu. As `Owner` only you can delete the project.
 
-You also have the flexibility to create new projects right from the dropdown menu. Here's how:
+<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption><p>Switch Project</p></figcaption></figure>
 
-1. Click on the project dropdown menu.
-2. At the bottom of the project list, you'll find an input field with the option to "Create a New Project."
-3. Enter your desired project name in the input field.
-4. Click on the "`+ Create PROJECT_NAME`" button.
+{% hint style="info" %}
+Only the **Project Owner** can delete the project.
+{% endhint %}
 
-### **Benefits at a Glance:**
-
-* **Seamless Switching**: Quickly transition between different project contexts.
-* **Logical Grouping**: Organize imports based on relevance and purpose.
-* **Creation on the Fly**: Create new projects directly from the dropdown.
-* **Enhanced Workflow**: Maintain a tidy workspace for efficient import management.
-
-The projects feature in Impler provides a dynamic way to categorize, access, and switch between different sets of imports.\
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

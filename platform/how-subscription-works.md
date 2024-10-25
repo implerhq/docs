@@ -1,9 +1,9 @@
 ---
+icon: subscript
 description: >-
   Get idea about how subscription works in impler. How pricing will be
   calculated, payment gateway being used internally and how it will affect
   usage.
-icon: subscript
 ---
 
 # How subscription works?
@@ -20,4 +20,4 @@ Impler assigns every user the **Starter Plan**, which includes 5,000 free record
 * Plan upgrades take effect immediately. While Plan downgrades occur at the end of the current billing cycle.
 * Users can cancel their plan anytime. Upon cancellation, the canceled plan does not renew at the end of the billing cycle, and the default Starter Plan is reactivated. Outstanding amounts are deducted at the end of the billing cycle after cancellation.
 
-At Impler, we do our best to ensure flexibility and convenience while maintaining a clear and fair billing structure. Have doubts? Feel free to shoot us an email at [bhavik@impler.io](mailto:bhavik@impler.io), in case you need any help.
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

@@ -1,8 +1,8 @@
 ---
+icon: paper-plane
 description: >-
   Impler will send you alert mail for anything that goes wrong during importing
   data
-icon: paper-plane
 ---
 
 # Email Alerts
@@ -19,4 +19,4 @@ Here is the sample mail,
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Sample mail sent to user while validation code fails</p></figcaption></figure>
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

@@ -1,9 +1,9 @@
 ---
+icon: eye-slash
 description: >-
   Do you need to import data in columns that are not fixed firsthand? Impler
   provides a facility to provide schema at the moment of opening the import
   widget.
-icon: eye-slash
 ---
 
 # Runtime Schema
@@ -56,4 +56,4 @@ Here are the keys&#x20;
 * `regex (optional)`: A regular expression to override when the type is `regex`.
 * `dateFormats (optional)`: Date formats indicating a list of formats acceptable for the date field. Required when type is `Date`. For example, `['dd/mm/yyyy','dd/mm/yy']`
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

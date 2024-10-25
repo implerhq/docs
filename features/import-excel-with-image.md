@@ -1,9 +1,9 @@
 ---
+icon: images
 description: >-
   Impler allows importing data files with images. Image import is useful in
   scenarios like Employee data with profile photos, Products with images, or
   Assets with pictures.
-icon: images
 ---
 
 # Import Excel with Image
@@ -75,6 +75,4 @@ curl --location --request GET 'https://api.impler.io/v1/upload/66b759d087a854c81
 ```
 {% endcode %}
 
-***
-
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

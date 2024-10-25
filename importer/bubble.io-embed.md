@@ -137,4 +137,4 @@ Provide Primary Color in properties to change the color theme of Importer.
 
 > In Progress
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

@@ -1,8 +1,8 @@
 ---
+icon: list-check
 description: >-
   Utilize default validation options to build your desired data import
   experience.
-icon: list-check
 layout:
   title:
     visible: true
@@ -36,4 +36,4 @@ layout:
 
 It's possible to extend validation functionality to adjust according to your needs. Read more in [custom-validation.md](../features/custom-validation.md "mention").
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

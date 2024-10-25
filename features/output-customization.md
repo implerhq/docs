@@ -1,6 +1,6 @@
 ---
-description: Customize output format to receive data in a manner that the system can use.
 icon: tree-christmas
+description: Customize output format to receive data in a manner that the system can use.
 ---
 
 # Output Customization
@@ -83,4 +83,4 @@ In that case, we need to provide schema runtime. We have listed examples for rea
 
 This output customization capability empowers you to direct imported data to any destination and in any preferred format.
 
-Have any questions? Feel free to ping us over [discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

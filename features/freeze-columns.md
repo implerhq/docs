@@ -1,8 +1,8 @@
 ---
+icon: sidebar
 description: >-
   Freeze columns in excel and editor to better view data while editing and
   adding records
-icon: sidebar
 ---
 
 # Freeze Columns
@@ -56,4 +56,4 @@ While importing data spreadsheet editor freezes two default `Checkbox` and `Sr. 
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Freezing 2 default and 2 mentioned columns in editor</p></figcaption></figure>
 
-Have any doubts? Please shoot us a message directly on [Discord](https://discord.impler.io).
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}

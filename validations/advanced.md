@@ -1,9 +1,9 @@
 ---
+icon: superpowers
 description: >-
   Validations help you to ensure that data is in the format you want them to be
   in. A tooltip will be shown for invalid data and you can ensure that errors
   get resolved before data gets submitted.
-icon: superpowers
 ---
 
 # Advanced Validations
@@ -79,6 +79,5 @@ Here is the example of `unique_with` validation in action,
 
 You can check the advanced validations sections in react( [#advanced-validations](../importer/react-embed.md#advanced-validations "mention")), angular [#advanced-validations](../importer/angular-embed.md#advanced-validations "mention")) and javascript ([#advanced-validations](../importer/html-js-embed.md#advanced-validations "mention"))
 
-***
+{% include "../.gitbook/includes/your-feedback-is-crucial-in....md" %}
 
-Have any doubts? Shoot us a message directly on [Discord](https://discord.impler.io).
