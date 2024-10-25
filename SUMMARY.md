@@ -37,7 +37,7 @@
 * [Freeze Columns](features/freeze-columns.md)
 * [Multiselect Dropdown](features/multiselect-dropdown.md)
 * [Output Customization](features/output-customization.md)
-* [Make your team](features/make-your-team.md)
+* [Make Your Team](features/make-your-team.md)
 
 ## Platform
 
