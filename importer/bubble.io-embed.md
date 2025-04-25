@@ -1,13 +1,13 @@
 ---
-icon: b
 description: >-
   Add readymade, scalable, and powerful CSV Excel import experience in your
   Bubble.io application.
+icon: b
 ---
 
 # Bubble.io Embed
 
-## 1. Setting Bubble App
+1\. Setting Bubble App
 
 {% hint style="info" %}
 **You must have a paid bubble application plan** to use the Bubble Data API, which is necessary to push external data into the Bubble data store.
@@ -105,9 +105,11 @@ From workflow panel (1), for Button (2) add the _Open Import Widget_ action.&#x2
 
 <figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Configuring Importer with Credentials from Impler Application</p></figcaption></figure>
 
-&#x20;Project Id, Template Id, and Access Token are found in the **Snippet** section of the application.
+#### e. Get ProjectId, TemplateId, and AccessToken by clicking on `Integrate` button in the application.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Getting credentials from Impler portal for Bubble Plugin</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption><p>Click on <code>Integrate</code> to open the integration modal</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption><p>Get the <code>ProjectId</code>, <code>TemplateId</code> and <code>Access Token</code></p></figcaption></figure>
 
 Once done CSV & Excel Import functionality is ready in your application.
 
@@ -133,7 +135,7 @@ Provide Primary Color in properties to change the color theme of Importer.
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Providing Primary Color to the Importer</p></figcaption></figure>
 
-## 6. Configuring multiple Importers on Page
+## 6. Configuring multiple Importers on a Page
 
 > In Progress
 
