@@ -1,8 +1,8 @@
 ---
-icon: arrow-progress
 description: >-
   Leverage Impler capabilites to build rich, scalable and user friendly data
   import experience
+icon: arrow-progress
 ---
 
 # How to use it? In 5 steps
@@ -19,7 +19,7 @@ Head over to Impler by visiting [https://web.impler.io](https://web.impler.io/) 
 
 After logging in, you will land on the dashboard. Click on `Create Import` which will open the create modal asking you to give the appropriate name to the Import.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Creating new Import</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Creating new Import</p></figcaption></figure>
 
 ### 3. Add Columns to Your Import:
 

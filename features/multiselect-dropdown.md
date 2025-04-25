@@ -1,9 +1,9 @@
 ---
-icon: list-dropdown
 description: >-
   The Multiselect feature in Impler allows users to pick multiple values for a
   single cell. This feature is useful in various scenarios like selecting
   categories for products, tagging items, and more.
+icon: list-dropdown
 ---
 
 # Multiselect Dropdown
@@ -17,7 +17,7 @@ description: >-
 
 3. Click on `Validations`.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Multiselect Validations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Multiselect Validations</p></figcaption></figure>
 
 4. We can provide allowed values in `Select Values`.
 5. We can also enable Multi Select for select column. Which allows user to select multiple values in the cell.

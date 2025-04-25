@@ -1,14 +1,14 @@
 ---
-icon: table
 description: >-
   Need to import a file that doesn't have a header or data starting after a few
   rows? Choose to import the file with headers or select the header row from
   where the data is starting.
+icon: table
 ---
 
 # Select Header Row
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How it works?
 
