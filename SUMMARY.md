@@ -38,6 +38,11 @@
 * [Multiselect Dropdown](features/multiselect-dropdown.md)
 * [Output Customization](features/output-customization.md)
 
+***
+
+* [Widget Customization](widget-customization.md)
+* [Column Warning](column-warning.md)
+
 ## Platform
 
 * [Email Alerts](platform/email-alerts.md)
