@@ -11,9 +11,9 @@ icon: text-size
 
 ```javascript
 const { showWidget, isImplerInitiated } = useImpler({
-  projectId: "673b4749998f0403d8491f59",
-  templateId: "6839498aec2bd4236c74ebda",
-  accessToken: "dde9212958056095b59ebe39a897d369",
+  projectId: "",
+  templateId: "",
+  accessToken: "",
   appearance: {
     primaryColor: '#FF6B35',
     fontFamily: 'Inter',
