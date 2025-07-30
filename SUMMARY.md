@@ -14,6 +14,7 @@
 * [Text Customization](importer/text-customization.md)
 * [Directly Enter your Data](importer/directly-enter-your-data.md)
 * [Select Header Row](importer/select-header-row.md)
+* [Customizing Widget Appearance](importer/customizing-widget-appearance.md)
 
 ## Data Retrieval
 

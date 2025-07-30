@@ -1,19 +1,8 @@
 ---
-icon: list-check
 description: >-
   Utilize default validation options to build your desired data import
   experience.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+icon: list-check
 ---
 
 # Base Validations

@@ -26,13 +26,13 @@ First, we need to set up the data structure in Bubble and enable the API for Imp
    * Make sure this Data Type has all the necessary fields you want to import (e.g., Full Name (text), Email (text), Date of Birth (date), Social Security Number (text)). Create any missing fields using the "Create a new field" button.
    * **Crucially:** This Data Type **must** be set to `Publicly visible`. Impler needs this permission to see the structure. Check the privacy rules for this data type if needed, but the type definition itself needs to be discoverable.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image01.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Important:** Add at least one entry (row) manually to this data type.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Making sure that at least one entry is exist in datatype</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image02.png" alt=""><figcaption><p>Making sure that at least one entry is exist in datatype</p></figcaption></figure>
 
 ### **ii. Enable Bubble Data API & Get Key**
 
@@ -45,7 +45,7 @@ First, we need to set up the data structure in Bubble and enable the API for Imp
    * Click "Generate a new API token".
    * Bubble will generate a **Private key**. **Copy this key immediately** and save it somewhere secure. You will need it shortly, and Bubble won't show it to you again.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>API Settings for Importing Data</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image03.png" alt=""><figcaption></figcaption></figure>
 
 ## 2. **Set Up Your Import Project**
 
@@ -99,7 +99,7 @@ Let's add the importer interface to your Bubble app.
 2. **Find Impler Element:** In the "Visual Elements" section on the left panel, find "CSVExcelImporter" (the name might vary slightly based on the plugin version).
 3. **Drag onto Page:** Drag and drop this element onto your page. **Note:** This element is usually invisible to the end-user; it just provides the necessary functions. You can place it anywhere, even outside the visible page area if you prefer.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Adding Importer on UI</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image04.png" alt=""><figcaption><p>Adding Importer on UI</p></figcaption></figure>
 
 ### **3.3) Get Your Impler Project Credentials**
 
@@ -120,7 +120,7 @@ Let's add the importer interface to your Bubble app.
 1. **Select Impler Element:** Back in your Bubble editor (Design tab), double-click the CSVExcelImporter element you added in Step 3.2 to open its properties editor.
 2. **Paste Credentials:** Paste the projectId, templateId, and accessToken you copied from Impler into the corresponding fields in the element's properties panel.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Configuring Importer with Credentials from Impler Application</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image05.png" alt=""><figcaption><p>Configuring Importer with Credentials from Impler Application</p></figcaption></figure>
 
 ### **3.5) Initialize the Importer (Workflow)**
 
@@ -131,7 +131,7 @@ We need to tell the Impler element to get ready when the page loads.
 3. **Add Initialize Action:** Click "Click here to add an action...", choose "Element Actions" -> "Initialize Importer" (the action name might vary slightly, select the one related to your CSVExcelImporter element).
 4. **Select Element:** In the action properties, make sure the correct CSVExcelImporter element is selected.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Workflow Initialize Importer on Page Load</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image06.png" alt=""><figcaption><p>Workflow Initialize Importer on Page Load</p></figcaption></figure>
 
 #### 3.6) **Trigger the Importer (Workflow)**
 
@@ -142,9 +142,9 @@ Users need a way to open the importer, typically via a button.
 3. **Add Open Widget Action:** Click "Click here to add an action...", choose "Element Actions" -> "Open Import Widget" (again, select the action associated with your CSVExcelImporter element).
 4. **Select Element:** Ensure the correct CSVExcelImporter element is selected in the action properties.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Add Button and Workflow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image07.png" alt=""><figcaption><p>Add Button and Workflow</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Open Import Widget on Button Click</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image08.png" alt=""><figcaption><p>Open Import Widget on Button Click</p></figcaption></figure>
 
 {% hint style="success" %}
 **You're ready to test!** Preview your Bubble page. Clicking the "Import Data" button should now open the Impler import widget, ready for your users to upload their files.
@@ -162,7 +162,7 @@ If you want to link the imported data to the specific Bubble user who uploaded i
     * In its properties, find the User Id field.
     * Use Bubble's dynamic data capabilities to insert the relevant user ID. This is often Current User's unique id.
 
-    <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Configuring User Id</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image09.png" alt=""><figcaption><p>Configuring User Id</p></figcaption></figure>
 2.  **In Impler (Destination Output):**
 
     * Go to your Impler project settings -> Destination tab.
@@ -178,7 +178,52 @@ If you want to link the imported data to the specific Bubble user who uploaded i
    * In its properties, find the Primary Color field.
    * Set a hex color code (e.g., #FF0000 for red) to customize the theme of the Impler widget to match your app's branding.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Providing Primary Color to the Importer</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image13.png" alt=""><figcaption><p>Providing Primary Color to the Importer</p></figcaption></figure>
+
+### 4.3) Customizing Widget Texts
+
+You can fully customize the text content displayed by the Impler widget to better align with your app’s tone, language, and user expectations.
+
+Whether you want to:
+
+* Add **custom messages**
+* Localize labels and placeholders to a different **language**
+* Adjust text for a **friendlier user experience**
+
+This is especially useful if you're building for international users or want to provide more context during the data import process.
+
+To learn how to customize widget texts, refer to the detailed guide in the following section:
+
+[text-customization.md](text-customization.md "mention")
+
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image12.png" alt=""><figcaption><p>Providing the CUstom Texts for the Import Widget</p></figcaption></figure>
+
+
+
+### 4.4)Advanced Widget Customization (Bubble.io)
+
+The Impler importer widget supports full theming so you can match it to your app’s look and feel. In **Bubble.io** using the **Appearance** field on the plugin element. This field accepts a JSON configuration that controls colors, fonts, borders, and button styles.
+
+#### How to Apply Custom Styling
+
+1. Go to the **Workflow** tab in your Bubble app.
+2. Select the step where you trigger **Start Import** (or similar) from the **CSVExcelImporter** plugin.
+3. In the plugin action settings, find the **Appearance** or **Theme** field.
+4. Paste your custom theme as a **single-line JSON object**.
+
+<figure><img src="../.gitbook/assets/impler-bubbleio-documentation-image14.png" alt=""><figcaption><p>Adding The appereance config according to your app's style</p></figcaption></figure>
+
+#### Example: Velvet Red Theme
+
+Paste this in the Appearance field:
+
+`{"primaryColor":"#ea580c","widget":{"backgroundColor":"#1f1b1b"},"fontFamily":"Inter, sans-serif","borderRadius":"12px","primaryButtonConfig":{"backgroundColor":"#ea580c","textColor":"#ffffff","hoverBackground":"#f97316","hoverTextColor":"#ffffff","borderColor":"transparent","hoverBorderColor":"transparent","buttonShadow":"0 4px 16px rgba(234, 88, 12, 0.4)"},"secondaryButtonConfig":{"backgroundColor":"#402218","textColor":"#fdba74","hoverBackground":"#5c2b20","hoverTextColor":"#ffe6cc","borderColor":"#7c3a1d","hoverBorderColor":"#ea580c","buttonShadow":"none"}}`
+
+
+
+<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+
+
 
 That's it! You've now integrated the Impler data importer into your Bubble application. Your users can now benefit from a streamlined way to upload data via CSV or Excel files. Remember to test thoroughly with different file types and data variations.
 
