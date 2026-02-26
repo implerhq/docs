@@ -38,6 +38,7 @@
 * [Freeze Columns](features/freeze-columns.md)
 * [Multiselect Dropdown](features/multiselect-dropdown.md)
 * [Output Customization](features/output-customization.md)
+* [Widget Security (Allowed Domains)](features/widget-security-allowed-domains.md)
 
 ***
 
